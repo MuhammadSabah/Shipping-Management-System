@@ -23,3 +23,39 @@
    Shipping management software is an excellent way for businesses to use and handle shipping and fulfillment tasks. With these tools, owners of businesses don't have    to spend a lot of time or money on logistics because orders can be shipped quickly and easily.
    </li>
 </ol>
+
+## 3. Non-functional requirements
+
+<ol type="I">
+   <li>
+    <strong>
+      Usability:
+    </strong>
+   Regardless of the size of the business, the system should be easy to use for even a non-technical user.
+   </li>
+   <li>
+     <strong>
+      Maintainablity:
+     </strong>
+         The software system should be maintainable, repairable and improvable, this phase in the software development cycle starts after the customer has received the          product.
+   </li>
+   <li>
+      <strong>
+        Reliability:
+      </strong>
+Software reliability, cost effectiveness and support services using appropriate technologies and expertise for enhancing our clients ability to serve their customers better.
+   </li>
+   <li>
+      <strong>
+        Scalability:
+      </strong>
+The software system should be scalable for our clients organization, so that it’s adjustable to changing market conditions and workloads.
+   </li>
+   <li>
+      <strong>
+         Security:
+      </strong>
+As far as the software and hardware is concerned, the proposed
+system must be completely reliable with data security.
+   </li>
+</ol>
