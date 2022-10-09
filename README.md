@@ -59,3 +59,15 @@ As far as the software and hardware is concerned, the proposed
 system must be completely reliable with data security.
    </li>
 </ol>
+
+## 8. Milestones & Deadlines
+- [x] Requirement Gathering and Analysis. **2022/10/09**
+- [ ] Creating Models using classes and records.
+- [ ] Creating containers and data structures to hold the data.
+- [ ] Persisting data in the files
+- [ ] Create user interface using terminal.
+- [ ] Create a client-server application so the server can answer clients' requests.
+- [ ] Adding Multithreading Capability so the server can respond to multiple clients.
+- [ ] Persist your data in a DBMS.
+- [ ] Test your program using JUnit.
+- [ ] Creating Documentation for your application.
