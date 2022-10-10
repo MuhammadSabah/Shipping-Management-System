@@ -28,7 +28,8 @@ and will use Waterfall model as the software development life cycle (SDLC) to ea
    Shipping management software is an excellent way for businesses to use and handle shipping and fulfillment tasks. With these tools, owners of businesses don't have    to spend a lot of time or money on logistics because orders can be shipped quickly and easily.
    </li>
 </ol>
-2. Functional-Requirements
+
+##2. Functional-Requirements
 
 | Functional Requirement No. | Functional Requirement Description | 
 |----------------------------|------------------------------------|
