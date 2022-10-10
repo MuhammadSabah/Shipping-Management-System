@@ -1,5 +1,10 @@
 # Shipping Management System
 
+## About
+This project is our final project for Advanced Computer Programming (ACP) class supervised by Dr. Polla Fattah. 
+We will be working on this project as team of 5,
+and will use Waterfall model as the software development life cycle (SDLC) to easily manage each phase and keep track of our progress.
+
 ## 1. Description
    The “Shipping Management System” is a system used for proper management of containers in a shipping company. The customer submits orders through shipping company      branches anywhere. These orders are collected at the closest port, and all product types are then loaded into the container and shipped to the destination port. The    container will be opened in the closest port, and all the products were sent to the correct customer locations.
   
