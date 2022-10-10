@@ -65,7 +65,7 @@ system must be completely reliable with data security.
 
 The Content of the System will like the diagram below:
 
-![Diagram](./images/diagram.png =x200)
+![Diagram](./images/diagram.png)
 
 ## 5. Project Goals
 <ul>
