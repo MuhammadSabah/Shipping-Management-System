@@ -146,6 +146,7 @@ Responsible for Building and Designing the project.
 - Yara Yahya   
 Responsible for Building and Designing the project.
    - GitHub: [YaraYahya](https://github.com/YaraYahya) 
+    - Email: <a href="mailto:yarayahiahussein9@gmail.com">yarayahiahussein9@gmail.com</a>
 
 - Abdulrahman Yassin      
 Responsible for Building and Designing the project.
