@@ -71,6 +71,38 @@ We have two types of users (Manager and Employee), each of them has a different 
    </li>
 </ul>
 
+3. Employee
+<ul>
+   <li>
+      Check item weight
+   </li>
+   <li>
+     Add OrderID
+   </li>
+   <li>
+     Add shipping bill
+   </li>
+   <li>
+    Add ContainerID for each order
+   </li>
+   <li>
+     List pending orders
+   </li>
+   <li>
+     View all available orders
+   </li>
+      <li>
+     Search for order
+   </li>
+      <li>
+     Receive payment from the customer
+   </li>
+      <li>
+     Remove Order
+   </li>
+</ul>
+
+
 ## 3. Non-functional requirements
 
 <ol type="I">
