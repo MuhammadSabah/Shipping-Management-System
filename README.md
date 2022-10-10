@@ -42,6 +42,13 @@ and will use Waterfall model as the software development life cycle (SDLC) to ea
 |          FR 7              |               Orders can only be transported through sea.                     |    
 |          FR 8              |               The containers will be opened in the destination port and each order will be delivered to the shipping company branches.                     |   
 
+We have two types of users (Manager and Employee), each of them has a different role with separate functionalities.Therefore, we must first **login**.
+
+1. Login as Employee or Manager
+
+- Enter User ID
+- Enter Password
+
 
 ## 3. Non-functional requirements
 
