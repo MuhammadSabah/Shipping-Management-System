@@ -66,9 +66,9 @@ system must be completely reliable with data security.
    </li>
 </ol>
 
-## 4. Structure 
+## 4. System Structure  
 
-The Content of the System will like the diagram below:
+The Structure of the System will be like the diagram below:
 
 ![Diagram](./images/diagram.png)
 
