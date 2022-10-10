@@ -28,6 +28,18 @@ and will use Waterfall model as the software development life cycle (SDLC) to ea
    Shipping management software is an excellent way for businesses to use and handle shipping and fulfillment tasks. With these tools, owners of businesses don't have    to spend a lot of time or money on logistics because orders can be shipped quickly and easily.
    </li>
 </ol>
+2. Functional-Requirements
+
+| Functional Requirement No. | Functional Requirement Description | 
+|----------------------------|------------------------------------|
+|          FR 1              |System manager has full access to the container and employees details.                                    |   
+|          FR 2              |               Employees can manage (add, remove, modify) orders.                     |    
+|          FR 3              |           System needs verification info to login each type of user (manager & employee) accordingly.                         |    
+|          FR 4              |        Employees can view and search for orders and order information.                            |    
+|          FR 5              |              The system calculates the shipping bill according to the item's weight in each order.                      |    
+|          FR 6              |               Each container can hold orders up to its maximum specified weight.                     |    
+|          FR 7              |               Orders can only be transported through sea.                     |    
+|          FR 8              |               The containers will be opened in the destination port and each order will be delivered to the shipping company branches.                     |   
 
 
 ## 3. Non-functional requirements
