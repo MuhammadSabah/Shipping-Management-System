@@ -49,6 +49,27 @@ We have two types of users (Manager and Employee), each of them has a different 
 - Enter User ID
 - Enter Password
 
+2. Manager
+<ul>
+   <li>
+      Add EID for each employee
+   </li>
+   <li>
+     Add full name, address and other relevant info
+   </li>
+   <li>
+     Add password
+   </li>
+   <li>
+     Search for employee, order or container
+   </li>
+   <li>
+     List employee, container, and order info
+   </li>
+   <li>
+     Remove employee
+   </li>
+</ul>
 
 ## 3. Non-functional requirements
 
