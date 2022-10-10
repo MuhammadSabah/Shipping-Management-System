@@ -147,7 +147,9 @@ Responsible for Building and Designing the Project. (Team Leader)
    - GitHub: [MuhammadSabah](https://github.com/MuhammadSabah) 
    - Email: <a href="mailto:hama.s.ibrahim9@gmail.com">hama.s.ibrahim9@gmail.com</a>
 
-
+- Zina Kamaran    
+Responsible for Building and Designing the Project.
+   - GitHub: [ZinaKamaran](https://github.com/Zinkamran) 
 
 - Halkawt Abdulilah    
 Responsible for Building and Designing the Project.
