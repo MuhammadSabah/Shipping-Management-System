@@ -61,11 +61,11 @@ system must be completely reliable with data security.
    </li>
 </ol>
 
-## 4.Content Structure 
+## 4. Structure 
 
 The Content of the System will like the diagram below:
 
-![Diagram](./images/diagram.png)
+![Diagram](./images/diagram.png =x200)
 
 ## 5. Project Goals
 <ul>
