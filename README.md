@@ -24,7 +24,13 @@
    </li>
 </ol>
 
-## 3. Non-functional requirements
+## 2.Content Structure 
+
+The Content of the System will like the diagram below:
+
+![Diagram](./images/diagram.png)
+
+## 4. Non-functional requirements
 
 <ol type="I">
    <li>
