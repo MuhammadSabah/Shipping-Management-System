@@ -29,7 +29,7 @@ and will use Waterfall model as the software development life cycle (SDLC) to ea
    </li>
 </ol>
 
-##2. Functional-Requirements
+## 2. Functional-Requirements
 
 | Functional Requirement No. | Functional Requirement Description | 
 |----------------------------|------------------------------------|
