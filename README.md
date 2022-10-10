@@ -13,7 +13,7 @@ and will use Waterfall model as the software development life cycle (SDLC) to ea
     <strong>
      Product Scope:
     </strong>
-   Scope of the system is within the organization i.e. all users of the system are employee and administrator of the company.
+   Scope of the system is within the organization i.e. all users of the system are employee and manager of the company.
    </li>
    <li>
       <strong>
