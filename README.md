@@ -204,29 +204,28 @@ We expect to finish the project within a period of 2½ months then we can deploy
 
 ## Team & Contact info
 
-- Muhammad Sabah    
-Responsible for Building and Designing the Project. (Team Leader)
+- Muhammad Sabah (Team Leader)
+
    - GitHub: [MuhammadSabah](https://github.com/MuhammadSabah) 
    - Email: <a href="mailto:hama.s.ibrahim9@gmail.com">hama.s.ibrahim9@gmail.com</a>
 
 - Zina Kamaran    
-Responsible for Building and Designing the Project.
+
    - GitHub: [ZinaKamaran](https://github.com/Zinkamran) 
    - Email: <a href="mailto:zinkamran.2000@gmail.com">zinkamran.2000@gmail.com</a>
   
 
-
 - Halkawt Abdulilah    
-Responsible for Building and Designing the Project.
+
    - GitHub: [HalkawtAbdulilah](https://github.com/Halkawt-Abdulilah) 
    - Email: <a href="mailto:halkawt.abdulilah@gmail.com">halkawt.abdulilah@gmail.com</a>
 
 - Yara Yahya   
-Responsible for Building and Designing the Project.
+
    - GitHub: [YaraYahya](https://github.com/YaraYahya) 
     - Email: <a href="mailto:yarayahiahussein9@gmail.com">yarayahiahussein9@gmail.com</a>
 
 - Abdulrahman Yassin      
-Responsible for Building and Designing the Project.
+
    - GitHub: [AbdulrahmanYassin](https://github.com/abdulrahman1242002) 
    - Email: <a href="mailto:abdulrahmanyassin66@gmail.com">abdulrahmanyassin66@gmail.com</a>
