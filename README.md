@@ -44,12 +44,12 @@ and will use Waterfall model as the software development life cycle (SDLC) to ea
 
 We have two types of users (Manager and Employee), each of them has a different role with separate functionalities. Therefore, we must first **login**.
 
-### 1. Login as Employee or Manager
+**1. Login as Employee or Manager**
 
 - Enter User ID
 - Enter Password
 
-### 2. Manager
+**2. Manager** 
 <ul>
    <li>
       Add EID for each employee
@@ -71,7 +71,7 @@ We have two types of users (Manager and Employee), each of them has a different 
    </li>
 </ul>
 
-### 3. Employee
+**3. Employee**
 <ul>
    <li>
       Check item weight
