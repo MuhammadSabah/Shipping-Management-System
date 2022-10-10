@@ -59,6 +59,7 @@ As far as the software and hardware is concerned, the proposed
 system must be completely reliable with data security.
    </li>
 </ol>
+
 ## 5. Project Goals
 <ul>
    <li>
@@ -80,18 +81,10 @@ system must be completely reliable with data security.
      System should be user friendly
    </li>
 </ul>
+
 ## 6. Intended Audience
 #### This system is for:
    - A **Small** or **Medium** Shipping Company
-
-## 9. Languages and Tools
-
-<p align="left">
-    <a href="https://www.jetbrains.com/idea/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/768px-IntelliJ_IDEA_Icon.svg.png?20200803071016" alt="IntelliJ IDE" width="40" height="40"/> </a> 
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS code" width="40" height="40"/> </a> 
-     <a href="https://github.com/" target="_blank" rel="noreferrer"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github" width="40" height="40"/> </a>
-    <a href="https://www.oracle.com/java/technologies/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java" width="40" height="40"/> </a> 
-</p>
 
 ## 7. System Requirements
 
@@ -126,6 +119,14 @@ We expect to finish the project within a period of 2½ months then we can deploy
 - [ ] Test your program using JUnit.
 - [ ] Creating Documentation for your application.
 
+## 9. Languages and Tools
+
+<p align="left">
+    <a href="https://www.jetbrains.com/idea/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/768px-IntelliJ_IDEA_Icon.svg.png?20200803071016" alt="IntelliJ IDE" width="40" height="40"/> </a> 
+  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS code" width="40" height="40"/> </a> 
+     <a href="https://github.com/" target="_blank" rel="noreferrer"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github" width="40" height="40"/> </a>
+    <a href="https://www.oracle.com/java/technologies/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java" width="40" height="40"/> </a> 
+</p>
 
 ## Team & Contact info
 
