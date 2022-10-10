@@ -98,24 +98,10 @@ The Structure of the System will be like the diagram below:
 #### This system is for:
    - A **Small** or **Medium** Shipping Company
 
-## 7. System Requirements
-
-#### For Hardware: Works on
-   <ul>
-      <li>
-         Personal Computers (PC) or Desktop
-      </li>
-      <li>
-         Laptops
-      </li>
-   </ul>
-   
-#### For Software: Works on
-   <ul>
-      <li>
-        Windows 8, 10 & 11
-      </li>
-   </ul>
+| For Hardware | For Software | 
+|--------------|--------------|
+| Personal Computers (PC) or Desktop          | Windows 8, 10 & 11       |   
+| Laptops      |              | 
    
 ## 8. Milestones & Deadlines
 
