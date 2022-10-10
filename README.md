@@ -60,6 +60,25 @@ system must be completely reliable with data security.
    </li>
 </ol>
 
+## 7. System Requirements
+
+#### For Hardware: Works on
+   <ul>
+      <li>
+         Personal Computers (PC) or Desktop
+      </li>
+      <li>
+         Laptops
+      </li>
+   </ul>
+   
+#### For Software: Works on
+   <ul>
+      <li>
+        Windows 8, 10 & 11
+      </li>
+   </ul>
+   
 ## 8. Milestones & Deadlines
 - [x] Requirement Gathering and Analysis. **2022/10/09**
 - [ ] Creating Models using classes and records.
@@ -71,3 +90,29 @@ system must be completely reliable with data security.
 - [ ] Persist your data in a DBMS.
 - [ ] Test your program using JUnit.
 - [ ] Creating Documentation for your application.
+
+
+## Team & Contact info
+
+- Muhammad Sabah    
+Responsible for Building and Designing the project. (Team Leader)
+   - GitHub: [MuhammadSabah](https://github.com/MuhammadSabah) 
+   - Email: <a href="mailto:hama.s.ibrahim9@gmail.com">hama.s.ibrahim9@gmail.com</a>
+
+- Zina Kamaran    
+Responsible for Building and Designing the project.
+   - GitHub: [ZinaKamaran](https://github.com/Zinkamran) 
+
+- Halkawt Abdulilah    
+Responsible for Building and Designing the project.
+   - GitHub: [HalkawtAbdulilah](https://github.com/Halkawt-Abdulilah) 
+   - Email: <a href="mailto:halkawt.abdulilah@gmail.com">halkawt.abdulilah@gmail.com</a>
+
+- Yara Yahya   
+Responsible for Building and Designing the project.
+   - GitHub: [YaraYahya](https://github.com/YaraYahya) 
+
+- Abdulrahman Yassin      
+Responsible for Building and Designing the project.
+   - GitHub: [AbdulrahmanYassin](https://github.com/abdulrahman1242002) 
+   - Email: <a href="mailto:abdulrahmanyassin66@gmail.com">abdulrahmanyassin66@gmail.com</a>
