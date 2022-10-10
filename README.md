@@ -62,7 +62,7 @@ The software system should be scalable for our clients organization, so that itâ
          Security:
       </strong>
 As far as the software and hardware is concerned, the proposed
-system must be completely reliable with data <strong>security</strong>.
+system must be completely reliable with data security.
    </li>
 </ol>
 
