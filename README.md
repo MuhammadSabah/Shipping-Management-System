@@ -80,6 +80,8 @@ system must be completely reliable with data security.
    </ul>
    
 ## 8. Milestones & Deadlines
+
+We expect to finish the project within a period of 2½ months then we can deploy it on market, but support for adding more features, maintainability of the software and keeping the software up-to-date with the market requirements requires more budget and time.
 - [x] Requirement Gathering and Analysis. **2022/10/09**
 - [ ] Creating Models using classes and records.
 - [ ] Creating containers and data structures to hold the data.
