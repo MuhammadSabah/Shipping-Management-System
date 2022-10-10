@@ -150,6 +150,9 @@ Responsible for Building and Designing the Project. (Team Leader)
 - Zina Kamaran    
 Responsible for Building and Designing the Project.
    - GitHub: [ZinaKamaran](https://github.com/Zinkamran) 
+   - Email: <a href="mailto:zinkamran.2000@gmail.com">zinkamran.2000@gmail.com</a>
+  
+
 
 - Halkawt Abdulilah    
 Responsible for Building and Designing the Project.
