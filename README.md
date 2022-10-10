@@ -24,13 +24,8 @@
    </li>
 </ol>
 
-## 2.Content Structure 
 
-The Content of the System will like the diagram below:
-
-![Diagram](./images/diagram.png)
-
-## 4. Non-functional requirements
+## 3. Non-functional requirements
 
 <ol type="I">
    <li>
@@ -65,6 +60,12 @@ As far as the software and hardware is concerned, the proposed
 system must be completely reliable with data security.
    </li>
 </ol>
+
+## 4.Content Structure 
+
+The Content of the System will like the diagram below:
+
+![Diagram](./images/diagram.png)
 
 ## 5. Project Goals
 <ul>
