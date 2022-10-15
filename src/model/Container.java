@@ -1,7 +1,7 @@
 package model;
 
-
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Container {
     private int containerId;
@@ -15,30 +15,45 @@ public class Container {
 
     }
 
-    public Container(int id, ArrayList<Order> orders, double containerMaxWeight, boolean shippingStatus, String containerBasePort, String containerDestinationPort) {
-        this.containerId = id;
+    public Container(int containerId, ArrayList<Order> orders, double containerMaxWeight, boolean shippingStatus, String containerBasePort, String containerDestinationPort) {
+        this.containerId = containerId;
         this.orders = orders;
         this.containerMaxWeight = containerMaxWeight;
         this.shippingStatus = shippingStatus;
         this.containerBasePort = containerBasePort;
         this.containerDestinationPort = containerDestinationPort;
-
     }
 
-    public void AddOrder(Order order) {
-        this.orders.add(order);
+    public void setContainerId(int containerId) {
+        this.containerId = containerId;
     }
 
-    public void removeOrder(int orderId) {
-        this.orders.removeIf(o -> o.id == orderId);
+    public void setOrders(ArrayList<Order> orders) {
+        this.orders = orders;
     }
 
-    public void setShippingStatus(boolean status) {
-        this.shippingStatus = status;
+    public void setContainerMaxWeight(double containerMaxWeight) {
+        this.containerMaxWeight = containerMaxWeight;
     }
 
-    public String getContainerBasePort() {
-        return containerBasePort;
+    public void setShippingStatus(boolean shippingStatus) {
+        this.shippingStatus = shippingStatus;
+    }
+
+    public void setContainerBasePort(String containerBasePort) {
+        this.containerBasePort = containerBasePort;
+    }
+
+    public void setContainerDestinationPort(String containerDestinationPort) {
+        this.containerDestinationPort = containerDestinationPort;
+    }
+
+    public int getContainerId() {
+        return containerId;
+    }
+
+    public ArrayList<Order> getOrders() {
+        return orders;
     }
 
     public double getContainerMaxWeight() {
@@ -49,16 +64,37 @@ public class Container {
         return shippingStatus;
     }
 
+    public String getContainerBasePort() {
+        return containerBasePort;
+    }
+
     public String getContainerDestinationPort() {
         return containerDestinationPort;
     }
 
-    public ArrayList<Order> getOrders() {
-        return orders;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Container)) return false;
+        Container container = (Container) o;
+        return containerId == container.containerId && Double.compare(container.containerMaxWeight, containerMaxWeight) == 0 && shippingStatus == container.shippingStatus && orders.equals(container.orders) && containerBasePort.equals(container.containerBasePort) && containerDestinationPort.equals(container.containerDestinationPort);
     }
 
-    public int getContainerId() {
-        return containerId;
+    @Override
+    public int hashCode() {
+        return Objects.hash(containerId, orders, containerMaxWeight, shippingStatus, containerBasePort, containerDestinationPort);
+    }
+
+    @Override
+    public String toString() {
+        return "Container{" +
+                "containerId=" + containerId +
+                ", orders=" + orders +
+                ", containerMaxWeight=" + containerMaxWeight +
+                ", shippingStatus=" + shippingStatus +
+                ", containerBasePort='" + containerBasePort + '\'' +
+                ", containerDestinationPort='" + containerDestinationPort + '\'' +
+                '}';
     }
 }
 
