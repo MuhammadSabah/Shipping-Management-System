@@ -72,6 +72,7 @@ public class Container {
         return containerDestinationPort;
     }
 
+    // Used for comparing instance members.
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -80,6 +81,7 @@ public class Container {
         return containerId == container.containerId && Double.compare(container.containerMaxWeight, containerMaxWeight) == 0 && shippingStatus == container.shippingStatus && orders.equals(container.orders) && containerBasePort.equals(container.containerBasePort) && containerDestinationPort.equals(container.containerDestinationPort);
     }
 
+    // A hashcode is a number generated from any object. This is what allows objects to be stored/retrieved quickly in a Hashtable.
     @Override
     public int hashCode() {
         return Objects.hash(containerId, orders, containerMaxWeight, shippingStatus, containerBasePort, containerDestinationPort);
