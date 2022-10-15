@@ -10,7 +10,7 @@ class Manager implements ManagerInterface {
     private String ManagerLastName;
     private int age;
     private char gender;
-    private Date DateOfBirth; //placeholder datatype
+    private Date DateOfBirth;
 
     public Manager() {
 
