@@ -1,8 +1,11 @@
 package model;
 
+
+import java.util.ArrayList;
+
 public class Container {
     private int containerId;
-    private Order[] orders;
+    private ArrayList<Order> orders;
     private double containerMaxWeight;
     private boolean shippingStatus;
     private String containerBasePort;
@@ -12,7 +15,7 @@ public class Container {
 
     }
 
-    public Container(int id, Order[] orders, double containerMaxWeight, boolean shippingStatus, String containerBasePort, String containerDestinationPort) {
+    public Container(int id, ArrayList<Order> orders, double containerMaxWeight, boolean shippingStatus, String containerBasePort, String containerDestinationPort) {
         this.containerId = id;
         this.orders = orders;
         this.containerMaxWeight = containerMaxWeight;
@@ -20,6 +23,18 @@ public class Container {
         this.containerBasePort = containerBasePort;
         this.containerDestinationPort = containerDestinationPort;
 
+    }
+
+    public void AddOrder(Order order) {
+        this.orders.add(order);
+    }
+
+    public void removeOrder(int orderId) {
+        this.orders.removeIf(o -> o.id == orderId);
+    }
+
+    public void setShippingStatus(boolean status) {
+        this.shippingStatus = status;
     }
 
     public String getContainerBasePort() {
@@ -38,7 +53,7 @@ public class Container {
         return containerDestinationPort;
     }
 
-    public Order[] getOrders() {
+    public ArrayList<Order> getOrders() {
         return orders;
     }
 
