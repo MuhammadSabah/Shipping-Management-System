@@ -141,7 +141,7 @@ system must be completely reliable with data security.
 
 ## 4. System Workflow  
 
-The Structure of the System will be like the diagram below:
+The Workflow of the System will be like the diagram below:
 
 ![Diagram](./images/diagram.png)
 
