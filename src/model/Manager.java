@@ -3,7 +3,7 @@ package model;
 import java.sql.Date;
 import java.util.Objects;
 
-class Manager implements ManagerInterface {
+class Manager {
     private String ManagerID;
     private String ManagerPassword;
     private String ManagerFirstName;
@@ -16,7 +16,15 @@ class Manager implements ManagerInterface {
 
     }
 
-    public Manager(String ManagerID, String managerPassword, String managerFirstName, String managerLastName, int age, char gender, int year, int month, int day) {
+    public Manager(String ManagerID,
+                   String managerPassword,
+                   String managerFirstName,
+                   String managerLastName,
+                   int age,
+                   char gender,
+                   int year,
+                   int month,
+                   int day) {
         this.ManagerID = ManagerID;
         this.ManagerPassword = managerPassword;
         this.ManagerFirstName = managerFirstName;
@@ -29,50 +37,6 @@ class Manager implements ManagerInterface {
     public void setDateOfBirth(int year, int month, int day) {
         Date dob = new Date(year, month, day);
         this.DateOfBirth = dob;
-    }
-
-    @Override
-    public void addEmployee() {
-    }
-
-    @Override
-    public void removeEmployee() {
-    }
-
-    @Override
-    public void listEmployees() {
-    }
-
-    @Override
-    public void searchEmployees() {
-    }
-
-    @Override
-    public void addContainer() {
-    }
-
-    @Override
-    public void editContainerInfo() {
-    }
-
-    @Override
-    public void removeContainer() {
-    }
-
-    @Override
-    public void listContainer() {
-    }
-
-    @Override
-    public void searchContainers() {
-    }
-
-    @Override
-    public void searchOrders() {
-    }
-
-    @Override
-    public void listOrders() {
     }
 
     public String getManagerID() {
@@ -144,5 +108,18 @@ class Manager implements ManagerInterface {
     @Override
     public int hashCode() {
         return Objects.hash(getManagerID(), getManagerPassword(), getManagerFirstName(), getManagerLastName(), getAge(), getGender(), getDateOfBirth());
+    }
+
+    @Override
+    public String toString() {
+        return "Manager{" +
+                "ManagerID='" + ManagerID + '\'' +
+                ", ManagerPassword='" + ManagerPassword + '\'' +
+                ", ManagerFirstName='" + ManagerFirstName + '\'' +
+                ", ManagerLastName='" + ManagerLastName + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", DateOfBirth=" + DateOfBirth +
+                '}';
     }
 }

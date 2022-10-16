@@ -1,103 +1,43 @@
 package model;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
-public class Container {
-    private int containerId;
-    private ArrayList<Order> orders;
-    private double containerMaxWeight;
-    private boolean shippingStatus;
-    private String containerBasePort;
-    private String containerDestinationPort;
+public record Container(int containerId,
+                        ArrayList<Order> orders,
+                        double containerMaxWeight,
+                        boolean shippingStatus,
+                        String containerBasePort,
+                        String containerDestinationPort) {
 
-    public Container() {
+
+    public Container {
 
     }
 
-    public Container(int containerId, ArrayList<Order> orders, double containerMaxWeight, boolean shippingStatus, String containerBasePort, String containerDestinationPort) {
-        this.containerId = containerId;
-        this.orders = orders;
-        this.containerMaxWeight = containerMaxWeight;
-        this.shippingStatus = shippingStatus;
-        this.containerBasePort = containerBasePort;
-        this.containerDestinationPort = containerDestinationPort;
-    }
-
-    public void setContainerId(int containerId) {
-        this.containerId = containerId;
-    }
-
-    public void setOrders(ArrayList<Order> orders) {
-        this.orders = orders;
-    }
-
-    public void setContainerMaxWeight(double containerMaxWeight) {
-        this.containerMaxWeight = containerMaxWeight;
-    }
-
-    public void setShippingStatus(boolean shippingStatus) {
-        this.shippingStatus = shippingStatus;
-    }
-
-    public void setContainerBasePort(String containerBasePort) {
-        this.containerBasePort = containerBasePort;
-    }
-
-    public void setContainerDestinationPort(String containerDestinationPort) {
-        this.containerDestinationPort = containerDestinationPort;
-    }
-
-    public int getContainerId() {
+    public int containerId() {
         return containerId;
     }
 
-    public ArrayList<Order> getOrders() {
+    public ArrayList<Order> orders() {
         return orders;
     }
 
-    public double getContainerMaxWeight() {
+    public double containerMaxWeight() {
         return containerMaxWeight;
     }
 
-    public boolean isShippingStatus() {
+    public boolean shippingStatus() {
         return shippingStatus;
     }
 
-    public String getContainerBasePort() {
+    public String containerBasePort() {
         return containerBasePort;
     }
 
-    public String getContainerDestinationPort() {
+    public String containerDestinationPort() {
         return containerDestinationPort;
     }
 
-    // Used for comparing instance members.
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Container)) return false;
-        Container container = (Container) o;
-        return containerId == container.containerId && Double.compare(container.containerMaxWeight, containerMaxWeight) == 0 && shippingStatus == container.shippingStatus && orders.equals(container.orders) && containerBasePort.equals(container.containerBasePort) && containerDestinationPort.equals(container.containerDestinationPort);
-    }
-
-    // A hashcode is a number generated from any object. This is what allows objects to be stored/retrieved quickly in a Hashtable.
-    @Override
-    public int hashCode() {
-        return Objects.hash(containerId, orders, containerMaxWeight, shippingStatus, containerBasePort, containerDestinationPort);
-    }
-
-    @Override
-    public String toString() {
-        return "Container{" +
-                "containerId=" + containerId +
-                ", orders=" + orders +
-                ", containerMaxWeight=" + containerMaxWeight +
-                ", shippingStatus=" + shippingStatus +
-                ", containerBasePort='" + containerBasePort + '\'' +
-                ", containerDestinationPort='" + containerDestinationPort + '\'' +
-                '}';
-    }
 }
 
 
