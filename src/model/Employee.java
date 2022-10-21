@@ -1,6 +1,6 @@
 package model;
 
-public record Employee(int employeeID,
+public record Employee(int id,
                        String firstName,
                        String middleName,
                        String lastName,
@@ -15,61 +15,7 @@ public record Employee(int employeeID,
             throw new IllegalArgumentException("Employee name is too short");
         }
     }
-
-    public int employeeID() {
-        return employeeID;
-    }
-
-    public String firstName() {
-        return firstName;
-    }
-
-    public String middleName() {
-        return middleName;
-    }
-
-    public String lastName() {
-        return lastName;
-    }
-
-    public String address() {
-        return address;
-    }
-
-    public int age() {
-        return age;
-    }
-
-    public char gender() {
-        return gender;
-    }
-
-    public String phoneNumber() {
-        return phoneNumber;
-    }
-
-    public String email() {
-        return email;
-    }
-
-    public int yearlySalary() {
-        return yearlySalary;
-    }
 }
 
 
-//
-//    public void listPendingOrders() {
-//    }
-//
-//    public void availableOrders() {
-//    }
-//
-//    public void receivePaymentFromCustomer() {
-//    }
-//
-//    public void removeOrders() {
-//    }
-//
-//    public void searchForOrders() {
-//    }
+
