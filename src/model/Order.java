@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public record Order(int orderId,
                     int containerId,
                     double orderWeight,
-                    Bill shippingBill,
+                    Invoice shippingInvoice,
                     ArrayList<Item> itemsList,
                     String orderSender,
                     String orderReceiver,
