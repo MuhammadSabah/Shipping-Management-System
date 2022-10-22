@@ -2,15 +2,12 @@ package model;
 
 import java.sql.Date;
 
-public record Manager(String ManagerID,
-                      String managerPassword,
-                      String managerFirstName,
-                      String managerLastName,
+public record Manager(String id,
+                      String password,
+                      String firstName,
+                      String lastName,
                       int age,
                       char gender,
-                      int year,
-                      int month,
-                      int day,
                       Date dateOfBrith) {
 
     public Manager {

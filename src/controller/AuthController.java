@@ -1,6 +1,6 @@
-package repository;
+package controller;
 
-public class AuthRepository {
+public class AuthController {
     public void login(String userName, String password, boolean isEmployee) {
         if (isEmployee) {
         } else {
