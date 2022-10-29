@@ -11,7 +11,7 @@ public record Employee(int id,
                        char gender,
                        String phoneNumber,
                        String email,
-                       int yearlySalary) implements Serializable {
+                       double yearlySalary) implements Serializable {
     public Employee {
         if (firstName.length() < 3 || lastName.length() < 3 || middleName.length() < 3) {
             throw new IllegalArgumentException("Employee name is too short");

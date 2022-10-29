@@ -5,7 +5,7 @@ import model.Order;
 import java.util.ArrayList;
 
 public class OrderController {
-    private final ArrayList<Order> ordersList = new ArrayList<Order>();
+    private final ArrayList<Order> ordersList = new ArrayList<>();
 
     public ArrayList<Order> getOrdersList() {
         return ordersList;

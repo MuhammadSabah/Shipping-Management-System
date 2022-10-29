@@ -6,14 +6,15 @@ import java.io.ObjectInputStream;
 public class Deserializer {
     private ObjectInputStream deserializer;
 
-    public Deserializer(String filename) throws FileNotFoundException, IOException{
+    public Deserializer(String filename) throws FileNotFoundException, IOException {
         deserializer = new ObjectInputStream(new FileInputStream(filename));
     }
 
-    public Object deserialize() throws ClassNotFoundException, IOException{
-        return (Object)deserializer.readObject();
+    public Object deserialize() throws ClassNotFoundException, IOException {
+        return (Object) deserializer.readObject();
     }
-    public void closeDeserializer() throws IOException{
+
+    public void closeDeserializer() throws IOException {
         deserializer.close();
     }
 }

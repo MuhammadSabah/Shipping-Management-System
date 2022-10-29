@@ -9,7 +9,8 @@ public record Manager(String id,
                       String lastName,
                       int age,
                       char gender,
-                      Date dateOfBrith) implements Serializable {
+                      Date dateOfBrith,
+                      double yearlySalary) implements Serializable {
 
     public Manager {
     }

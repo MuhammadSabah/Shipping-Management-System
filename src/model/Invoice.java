@@ -18,6 +18,4 @@ public record Invoice(int id,
                       // Cubic Meter = length * width * height
                       double CBM) implements Serializable{
 
-    public Invoice {
-    }
 }
