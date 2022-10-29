@@ -1,5 +1,6 @@
 package model;
 
+import java.io.Serializable;
 import java.sql.Date;
 
 public record Manager(String id,
@@ -8,7 +9,7 @@ public record Manager(String id,
                       String lastName,
                       int age,
                       char gender,
-                      Date dateOfBrith) {
+                      Date dateOfBrith) implements Serializable {
 
     public Manager {
     }
