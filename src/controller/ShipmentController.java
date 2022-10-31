@@ -12,7 +12,8 @@ public class ShipmentController {
         return shipments;
     }
 
-    public void add() {
+    public void add(ArrayList<Order> shipment) {
+        shipments.add(shipment);
     }
 
     public void remove() {

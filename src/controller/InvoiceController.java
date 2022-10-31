@@ -22,7 +22,8 @@ public class InvoiceController {
     public void getAll() {
     }
 
-    public void add() {
+    public void add(Invoice invoice) {
+        invoices.add(invoice);
     }
 
     public void remove() {

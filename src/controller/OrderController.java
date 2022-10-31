@@ -19,6 +19,7 @@ public class OrderController {
     }
 
     public void add(Order order) {
+        ordersList.add(order);
     }
 
     public void remove(int id) {

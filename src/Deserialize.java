@@ -1,13 +1,16 @@
 import model.Employee;
+import object_state.Deserializer;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 
-public class Main2 {
+public class Deserialize {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        // Deserialization:
-        Deserializer deserializer = new Deserializer("C:\\Users\\Leonvo\\IdeaProjects\\Shipping-Management\\test.ser");
-        Employee muhammad = (Employee) deserializer.deserialize();
+        Deserializer deserializer = new Deserializer("storage\\data.ser");
+        HashMap<String, ArrayList> stateData = new HashMap<>();
+        stateData = deserializer.deserialize();
         deserializer.closeDeserializer();
-        System.out.println(muhammad.toString());
+        System.out.println(stateData.values());
     }
 }

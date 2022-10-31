@@ -1,7 +1,10 @@
+package object_state;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
+import java.util.HashMap;
 
 public class Deserializer {
     private ObjectInputStream deserializer;
@@ -10,8 +13,8 @@ public class Deserializer {
         deserializer = new ObjectInputStream(new FileInputStream(filename));
     }
 
-    public Object deserialize() throws ClassNotFoundException, IOException {
-        return (Object) deserializer.readObject();
+    public HashMap deserialize() throws ClassNotFoundException, IOException {
+        return (HashMap) deserializer.readObject();
     }
 
     public void closeDeserializer() throws IOException {

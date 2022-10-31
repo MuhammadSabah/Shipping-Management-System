@@ -3,7 +3,7 @@ package model;
 import java.io.Serializable;
 import java.sql.Date;
 
-public record Manager(String id,
+public record Manager(int id,
                       String password,
                       String firstName,
                       String lastName,
