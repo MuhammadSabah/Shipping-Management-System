@@ -1,5 +1,6 @@
 package model;
 
+import java.io.Serializable;
 import java.util.Date;
 
 public record Invoice(int id,
@@ -15,8 +16,6 @@ public record Invoice(int id,
                       double finalAmount,
                       String payedIn,
                       // Cubic Meter = length * width * height
-                      double CBM) {
+                      double CBM) implements Serializable{
 
-    public Invoice {
-    }
 }

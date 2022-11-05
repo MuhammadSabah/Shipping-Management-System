@@ -1,6 +1,8 @@
 package model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Date;
 
 public record Order(int orderId,
                     int shipmentId,
@@ -10,8 +12,8 @@ public record Order(int orderId,
                     String orderSender,
                     String orderReceiver,
                     String receiverAddress,
-                    String deliveredDate,
-                    String shippingDate) {
+                    Date deliveredDate,
+                    Date shippingDate) implements Serializable {
 
     public Order {
     }
