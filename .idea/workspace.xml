@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d6768e2-2183-4c96-b494-deac3fec557a" name="Changes" comment="persisting data in a hashmap">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Manager_view.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ManagerView.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GBMFK7C2Io8JJTLgfdR5ZjN3g0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Leonvo\IdeaProjects\Shipping-Management\src\model" />
+      <recent name="C:\Users\Leonvo\IdeaProjects\Shipping-Management\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.manger">
+    <configuration name="Deserialize" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Deserialize" />
+      <module name="Shipping-Management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Serialize" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Serialize" />
+      <module name="Shipping-Management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Shipping-Management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="manger" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="view.ManagerView" />
+      <module name="Shipping-Management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.manger" />
+      <item itemvalue="Application.Deserialize" />
+      <item itemvalue="Application.Serialize" />
+      <item itemvalue="Application.main" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d6768e2-2183-4c96-b494-deac3fec557a" name="Changes" comment="" />
+      <created>1665857420346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665857420346</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add container model">
+      <created>1665863259221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665863259221</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update container model">
+      <created>1665864505209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665864505209</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update container model">
+      <created>1665868311044</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665868311044</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update all models">
+      <created>1665868782145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665868782145</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update Order model">
+      <created>1665869148285</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665869148285</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update Employee model">
+      <created>1665870729395</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665870729395</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix mistakes">
+      <created>1665937108130</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665937108130</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add repositories">
+      <created>1666381942442</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666381942442</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add repositories">
+      <created>1666427470428</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666427470428</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update controllers">
+      <created>1666465165428</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666465165428</updated>
+    </task>
+    <task id="LOCAL-00011" summary="testing object serializer">
+      <created>1667078423264</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667078423264</updated>
+    </task>
+    <task id="LOCAL-00012" summary="persisting data in a hashmap">
+      <created>1667238567281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667238567281</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add container model" />
+    <MESSAGE value="update container model" />
+    <MESSAGE value="update all models" />
+    <MESSAGE value="update Order model" />
+    <MESSAGE value="update Employee model" />
+    <MESSAGE value="fix mistakes" />
+    <MESSAGE value="add repositories" />
+    <MESSAGE value="update controllers" />
+    <MESSAGE value="testing object serializer" />
+    <MESSAGE value="persisting data in a hashmap" />
+    <option name="LAST_COMMIT_MESSAGE" value="persisting data in a hashmap" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -12,6 +12,7 @@ public class ItemController {
     }
 
     public void add(Item item) {
+        itemsList.add(item);
 
     }
 

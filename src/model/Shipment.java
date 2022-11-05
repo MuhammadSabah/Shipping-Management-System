@@ -1,5 +1,6 @@
 package model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 public record Shipment(int id,
@@ -7,7 +8,7 @@ public record Shipment(int id,
                        double maxWeight,
                        boolean shippingStatus,
                        String basePort,
-                       String destinationPort) {
+                       String destinationPort) implements Serializable{
 
     public Shipment {
 

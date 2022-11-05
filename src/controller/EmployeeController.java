@@ -9,12 +9,13 @@ public class EmployeeController {
     private final ArrayList<Employee> employees = new ArrayList<>();
 
     // OR
-//    private HashMap<Integer, Employee> employeesHash;
+    //private HashMap<Integer, Employee> employeesHash;
     public ArrayList<Employee> getEmployees() {
         return employees;
     }
 
-    public void addEmployee() {
+    public void addEmployee(Employee employee) {
+        employees.add(employee);
     }
 
     public void removeEmployee() {
