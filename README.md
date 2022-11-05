@@ -89,7 +89,7 @@ We have two types of users (Manager and Employee), each of them has a different 
      List pending orders
    </li>
    <li>
-     View all available orders
+     view all available orders
    </li>
       <li>
      Search for order
