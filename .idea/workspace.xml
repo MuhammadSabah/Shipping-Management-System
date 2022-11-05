@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d6768e2-2183-4c96-b494-deac3fec557a" name="Changes" comment="testing object serializer">
+    <list default="true" id="4d6768e2-2183-4c96-b494-deac3fec557a" name="Changes" comment="persisting data in a hashmap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object_state/Deserializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deserialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object_state/Serializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InvoiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ShipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ShipmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Manager_view.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ManagerView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +52,7 @@
       <recent name="C:\Users\Leonvo\IdeaProjects\Shipping-Management\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Deserialize">
+  <component name="RunManager" selected="Application.manger">
     <configuration name="Deserialize" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Deserialize" />
       <module name="Shipping-Management" />
@@ -86,7 +76,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="manger" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="view.ManagerView" />
+      <module name="Shipping-Management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.manger" />
       <item itemvalue="Application.Deserialize" />
       <item itemvalue="Application.Serialize" />
       <item itemvalue="Application.main" />
@@ -178,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667078423264</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="persisting data in a hashmap">
+      <created>1667238567281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667238567281</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +207,8 @@
     <MESSAGE value="add repositories" />
     <MESSAGE value="update controllers" />
     <MESSAGE value="testing object serializer" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing object serializer" />
+    <MESSAGE value="persisting data in a hashmap" />
+    <option name="LAST_COMMIT_MESSAGE" value="persisting data in a hashmap" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
