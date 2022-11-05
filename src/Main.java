@@ -1,11 +1,8 @@
 import model.Employee;
-import view.ManagerView;
-
-import java.io.IOException;
+import view.StartView;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        System.out.println("Shipping Management System");
-
+    public static void main(String[] args) {
+        StartView.start();
     }
 }
