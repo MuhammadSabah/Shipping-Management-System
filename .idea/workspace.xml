@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d6768e2-2183-4c96-b494-deac3fec557a" name="Changes" comment="persisting data in a hashmap">
+    <list default="true" id="f926630e-9ccd-4247-8eb9-fa5cd2cf9bf3" name="Changes" comment="refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Manager_view.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ManagerView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <recent name="C:\Users\Leonvo\IdeaProjects\Shipping-Management\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.manger">
+  <component name="RunManager" selected="Application.main">
     <configuration name="Deserialize" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Deserialize" />
       <module name="Shipping-Management" />
@@ -183,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667238567281</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactor">
+      <created>1667680594957</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667680594957</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactor">
+      <created>1667682086274</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667682086274</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +220,8 @@
     <MESSAGE value="update controllers" />
     <MESSAGE value="testing object serializer" />
     <MESSAGE value="persisting data in a hashmap" />
-    <option name="LAST_COMMIT_MESSAGE" value="persisting data in a hashmap" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

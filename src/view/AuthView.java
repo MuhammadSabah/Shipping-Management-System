@@ -6,12 +6,12 @@ public class AuthView {
     public static boolean showLogin() {
         Scanner input = new Scanner(System.in);
         String username, password;
-        System.out.println("Login");
+        System.out.println("***** LOGIN *****");
         while (true) {
-            System.out.println("Enter your Username: ");
-            username = input.nextLine();
-            System.out.println("Enter your Password: ");
-            password = input.nextLine();
+            System.out.print("Enter your Username: ");
+            username = input.next();
+            System.out.print("Enter your Password: ");
+            password = input.next();
 
             if (username.equals("Correct") && password.equals("Correct")) {
                 System.out.println("Login Successful!");
