@@ -3,18 +3,6 @@ package view;
 import java.util.Scanner;
 
 public class AuthView {
-
-//    public static boolean showSignup() {
-//        Scanner input = new Scanner(System.in);
-//        String username, password;
-//        System.out.println("***** SIGNUP *****");
-//        System.out.print("Enter your Username: ");
-//        username = input.nextLine();
-//        System.out.print("Enter your Password: ");
-//        password = input.nextLine();
-//
-//    }
-
     public static boolean showLogin() {
         Scanner input = new Scanner(System.in);
         String username, password;
