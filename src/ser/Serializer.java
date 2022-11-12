@@ -1,4 +1,4 @@
-package object_state;
+package ser;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
