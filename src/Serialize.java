@@ -74,7 +74,7 @@ public class Serialize {
         //
         stateData.put("employeesList", empController.getEmployees());
         stateData.put("ordersList", orderController.getOrdersList());
-        stateData.put("invoicesList", invoiceController.getInvoices());
+        stateData.put("invoicesList", invoiceController.getAll());
         stateData.put("itemsList", itemController.getItemsList());
         stateData.put("shipmentsList", shipmentController.getShipments());
 

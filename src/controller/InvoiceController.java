@@ -1,31 +1,37 @@
 package controller;
 
+import model.Employee;
 import model.Invoice;
 
 import java.util.ArrayList;
 
 public class InvoiceController {
-    private final ArrayList<Invoice> invoices = new ArrayList<>();
-
-    public ArrayList<Invoice> getInvoices() {
-        return invoices;
-    }
+    private final ArrayList<Invoice> invoiceList = new ArrayList<>();
 
     public static double calcCMB(double width, double height, double length) {
         return width * length * height;
     }
 
-    public Invoice get() {
+    public Invoice get(int id) {
+        for (Invoice invoice : invoiceList) {
+            if (invoice.id() == id) {
+                return invoice;
+            }
+        }
         return null;
     }
 
-    public void getAll() {
+    public ArrayList<Invoice> getAll() {
+        return invoiceList;
     }
 
     public void add(Invoice invoice) {
-        invoices.add(invoice);
+        if (!invoiceList.contains(invoice)) {
+            invoiceList.add(invoice);
+        }
     }
 
-    public void remove() {
+    public void remove(int id) {
+        invoiceList.removeIf((Invoice invoice) -> invoice.id() == id);
     }
 }

@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f926630e-9ccd-4247-8eb9-fa5cd2cf9bf3" name="Changes" comment="refactor">
+    <list default="true" id="f926630e-9ccd-4247-8eb9-fa5cd2cf9bf3" name="Changes" comment="updating manager view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shipping-Management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shipping-Management.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deserialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deserialize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Serialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serialize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object_state/Deserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ser/Deserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object_state/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ser/Serializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AuthView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AuthView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InvoiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/EmployeeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/EmployeeView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/ManagerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ManagerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/StartView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/StartView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667682742710</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updating manager view">
+      <created>1668272341700</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668272341700</updated>
+    </task>
+    <task id="LOCAL-00017" summary="updating manager view">
+      <created>1668272357367</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668272357367</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +249,8 @@
     <MESSAGE value="testing object serializer" />
     <MESSAGE value="persisting data in a hashmap" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="updating manager view" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating manager view" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
