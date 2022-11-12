@@ -8,7 +8,7 @@ public class EmployeeView {
     static Scanner in = new Scanner(System.in);
 
     public static void start() {
-
+        System.out.println("\n***** EMPLOYEE VIEW *****");
         String n = "";
         int num = 0;
         boolean looping = true;
