@@ -1,34 +1,51 @@
 package controller;
 
-import model.Order;
 import model.Shipment;
 
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 public class ShipmentController {
-    private final ArrayList<ArrayList<Order>> shipments = new ArrayList<>();
+    private final ArrayList<Shipment> shipments = new ArrayList<>();
 
-    public ArrayList<ArrayList<Order>> getShipments() {
-        return shipments;
+    public void add(Shipment shipment) {
+        if (!shipments.contains(shipment)) {
+            shipments.add(shipment);
+        }
     }
 
-    public void add(ArrayList<Order> shipment) {
-        shipments.add(shipment);
+    public void remove(int id) {
+        shipments.removeIf((Shipment shipment) -> shipment.id() == id);
     }
 
-    public void remove() {
-    }
-
-    public void update() {
-    }
-
-    public Shipment get() {
+    public Shipment get(int id) {
+        for (Shipment shipment : shipments) {
+            if (shipment.id() == id) {
+                return shipment;
+            }
+        }
         return null;
     }
 
-    public void getAll() {
+    public ArrayList<Shipment> getAll() {
+        return shipments;
     }
 
-    public void search() {
+    public ArrayList<Shipment> searchByBasePort(String basePort) {
+        return (ArrayList<Shipment>) shipments.stream()
+                .filter((Shipment shipment) -> shipment.basePort().contains(basePort))
+                .collect(Collectors.toList());
+    }
+
+    public ArrayList<Shipment> searchByDestinationPort(String destinationPort) {
+        return (ArrayList<Shipment>) shipments.stream()
+                .filter((Shipment shipment) -> shipment.destinationPort().contains(destinationPort))
+                .collect(Collectors.toList());
+    }
+
+    public ArrayList<Shipment> searchByMaxWeight(double maxWeight) {
+        return (ArrayList<Shipment>) shipments.stream()
+                .filter((Shipment shipment) -> shipment.maxWeight() == maxWeight)
+                .collect(Collectors.toList());
     }
 }
