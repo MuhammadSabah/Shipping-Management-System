@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 
-public record Order(int orderId,
+public record Order(int id,
                     int shipmentId,
                     double orderWeight,
                     Invoice shippingInvoice,
@@ -13,7 +13,8 @@ public record Order(int orderId,
                     String orderReceiver,
                     String receiverAddress,
                     Date deliveredDate,
-                    Date shippingDate) implements Serializable {
+                    Date shippingDate,
+                    String status) implements Serializable {
 
     public Order {
     }

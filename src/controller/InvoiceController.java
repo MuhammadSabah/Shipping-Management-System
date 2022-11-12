@@ -1,6 +1,5 @@
 package controller;
 
-import model.Employee;
 import model.Invoice;
 
 import java.util.ArrayList;

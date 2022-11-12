@@ -35,11 +35,18 @@ public class EmployeeController {
         return employees;
     }
 
-    public ArrayList<Employee> search(String fName) {
+    public ArrayList<Employee> searchByFirstName(String fName) {
         return (ArrayList<Employee>) employees.stream()
                 .filter((Employee employee) -> employee.firstName().contains(fName))
                 .collect(Collectors.toList());
     }
+
+    public ArrayList<Employee> searchByGender(char g) {
+        return (ArrayList<Employee>) employees.stream()
+                .filter((Employee employee) -> employee.gender() == g)
+                .collect(Collectors.toList());
+    }
+
 }
 
 
