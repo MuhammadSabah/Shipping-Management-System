@@ -4,58 +4,76 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ManagerView {
-    public static void start() {
-        Scanner input = new Scanner(System.in);
-        int scanner;
-        while (true) {
-            System.out.println("*********************************************");
-            System.out.printf("******** WELCOME %-20s *******\n", 1000);
-            //1000 is placeholder for Admins First Name
-            System.out.println("*********************************************");
-            System.out.println("*** [1] Add Employee  ***********************");
-            System.out.println("*** [2] Search Employee, order,container ****");
-            System.out.println("*** [3] Show Employee, order, container *****");
-            System.out.println("*** [4] Remove Employee *********************");
-            System.out.println("*** [5] System Exit *************************");
 
+    static Scanner in = new Scanner(System.in);
+
+    public static void start() {
+
+        String n = "";
+        int num = 0;
+        boolean looping = true;
+        managerMainCommands();
+        while (looping) {
             try {
-                scanner = input.nextInt();
-                if (scanner == 1) {
-                    while (true) {
-                        System.out.println("Enter EID for employee");
-                        //placeholder
-                        System.out.println("Enter Full name");
-                        //placeholder
-                        System.out.println("Enter Address");
-                        //placeholder
-                        System.out.println("Placeholder for other info");
-                        System.out.println("for Confirming Enter 1, otherwise for resetting");
-                        scanner = input.nextInt();
-                        try {
-                            if (scanner == 1) {
-                                System.out.println("Confirmed");
-                                break;
-                            } else {
-                                System.out.println("Reset");
-                            }
-                        } catch (InputMismatchException e) {
-                            System.out.println("invalid input please try again");
-                            input.next();
-                        }
+                n = in.nextLine();
+                if (n.equals("1")) {
+                    manageEmployeesCommands();
+                    num = in.nextInt();
+                    switch (num) {
+                        case 1:
+                        case 2:
+                        case 3:
+                        case 4:
+                        case 5:
+                        case 6:
                     }
-                } else if (scanner == 2) {
-                } else if (scanner == 3) {
-                } else if (scanner == 4) {
-                } else if (scanner == 5) {
+                } else if (n.equals("2")) {
+                    shipmentCommands();
+                    num = in.nextInt();
+                    switch (num) {
+                        case 1:
+                        case 2:
+                        case 3:
+                        case 4:
+                        case 5:
+                        case 6:
+                    }
+                } else if (n.equalsIgnoreCase("exit")) {
+                    System.out.print("Are you sure you want to exit? Y/N ");
+                    char c = in.next().charAt(0);
+                    if (c == 'y' || c == 'Y') {
+                        looping = false;
+                    }
                     break;
-                } else {
-                    System.out.println("invalid input, Re-Enter");
                 }
-            } catch (InputMismatchException e) {
-                System.out.println("Please Enter a number not a text");
-                input.next(); //Resetting input
+            } catch (InputMismatchException ex) {
+                System.out.println("command does not exist");
             }
         }
-        input.close();
+
+    }
+
+    public static void managerMainCommands() {
+        System.out.println("[1] Manage Employees");
+        System.out.println("[2] Manage Container/Shipment");
+        System.out.println("\nType 'help' for a list of commands");
+    }
+
+    public static void manageEmployeesCommands() {
+        System.out.println("[1] add employee");
+        System.out.println("[2] remove employee");
+        System.out.println("[3] update employee");
+        System.out.println("[4] get employee details");
+        System.out.println("[5] search for employee");
+        System.out.println("[6] get employee list");
+    }
+
+    public static void shipmentCommands() {
+        System.out.println("[1] add shipment");
+        System.out.println("[2] remove shipment");
+        System.out.println("[3] update shipment");
+        System.out.println("[4] get shipment details");
+        System.out.println("[5] list shipments");
+        System.out.println("[6] search for shipment");
     }
 }
