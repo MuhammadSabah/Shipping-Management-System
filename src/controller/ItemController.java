@@ -7,13 +7,13 @@ import java.util.ArrayList;
 public class ItemController {
     private final ArrayList<Item> itemsList = new ArrayList<>();
 
-    public void add(Item item) {
+    public void addItem(Item item) {
         if (!itemsList.contains(item)) {
             itemsList.add(item);
         }
     }
 
-    public void remove(int id) {
+    public void removeItem(int id) {
         itemsList.removeIf((Item item) -> item.id() == id);
     }
 
@@ -26,10 +26,10 @@ public class ItemController {
         return null;
     }
 
-    public ArrayList<Item> getAll() {
+    public ArrayList<Item> getAllItems() {
         return itemsList;
     }
 
-    public void update() {
+    public void updateItem() {
     }
 }

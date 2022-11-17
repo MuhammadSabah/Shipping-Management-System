@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class OrderController {
     private final ArrayList<Order> ordersList = new ArrayList<>();
 
-    public Order get(int id) {
+    public Order getOrder(int id) {
         for (Order order : ordersList) {
             if (order.id() == id) {
                 return order;
@@ -17,37 +17,37 @@ public class OrderController {
         return null;
     }
 
-    public ArrayList<Order> getAll() {
+    public ArrayList<Order> getAllOrders() {
         return ordersList;
     }
 
-    public ArrayList<Order> getAllPending() {
+    public ArrayList<Order> getAllPendingOrder() {
         return (ArrayList<Order>) ordersList.stream()
                 .filter((Order order) -> order.status().equals("pending"))
                 .collect(Collectors.toList());
     }
 
-    public void add(Order order) {
+    public void addOrder(Order order) {
         if (!ordersList.contains(order)) {
             ordersList.add(order);
         }
     }
 
-    public void remove(int id) {
+    public void removeOrder(int id) {
         ordersList.removeIf((Order order) -> order.id() == id);
     }
 
-    public void update(Order order) {
+    public void updateOrder(Order order) {
         // Nothing for now
     }
 
-    public ArrayList<Order> searchSender(String orderSender) {
+    public ArrayList<Order> searchSenderOrder(String orderSender) {
         return (ArrayList<Order>) ordersList.stream()
                 .filter((Order order) -> order.orderSender().contains(orderSender))
                 .collect(Collectors.toList());
     }
 
-    public ArrayList<Order> searchReceiver(String orderReceiver) {
+    public ArrayList<Order> searchReceiverOrder(String orderReceiver) {
         return (ArrayList<Order>) ordersList.stream()
                 .filter((Order order) -> order.orderSender().contains(orderReceiver))
                 .collect(Collectors.toList());
