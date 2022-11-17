@@ -8,17 +8,17 @@ import java.util.stream.Collectors;
 public class ShipmentController {
     private final ArrayList<Shipment> shipments = new ArrayList<>();
 
-    public void add(Shipment shipment) {
+    public void addShipment(Shipment shipment) {
         if (!shipments.contains(shipment)) {
             shipments.add(shipment);
         }
     }
 
-    public void remove(int id) {
+    public void removeShipment(int id) {
         shipments.removeIf((Shipment shipment) -> shipment.id() == id);
     }
 
-    public Shipment get(int id) {
+    public Shipment getShipment(int id) {
         for (Shipment shipment : shipments) {
             if (shipment.id() == id) {
                 return shipment;
@@ -27,7 +27,7 @@ public class ShipmentController {
         return null;
     }
 
-    public ArrayList<Shipment> getAll() {
+    public ArrayList<Shipment> getAllShipments() {
         return shipments;
     }
 
