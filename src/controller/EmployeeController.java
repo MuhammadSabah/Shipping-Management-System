@@ -12,17 +12,17 @@ public class EmployeeController {
     // OR
     // private HashMap<Integer, Employee> employeesHash;
 
-    public void add(Employee employee) {
+    public void addEmployee(Employee employee) {
         if (!employees.contains(employee)) {
             employees.add(employee);
         }
     }
 
-    public void remove(int id) {
+    public void removeEmployee(int id) {
         employees.removeIf((Employee employee) -> employee.id() == id);
     }
 
-    public Employee get(int id) {
+    public Employee getEmployee(int id) {
         for (Employee emp : employees) {
             if (emp.id() == id) {
                 return emp;
@@ -31,7 +31,7 @@ public class EmployeeController {
         return null;
     }
 
-    public ArrayList<Employee> getAll() {
+    public ArrayList<Employee> getAllEmployee() {
         return employees;
     }
 

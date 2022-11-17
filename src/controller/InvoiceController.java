@@ -11,7 +11,7 @@ public class InvoiceController {
         return width * length * height;
     }
 
-    public Invoice get(int id) {
+    public Invoice getInvoice(int id) {
         for (Invoice invoice : invoiceList) {
             if (invoice.id() == id) {
                 return invoice;
@@ -20,17 +20,17 @@ public class InvoiceController {
         return null;
     }
 
-    public ArrayList<Invoice> getAll() {
+    public ArrayList<Invoice> getAllInvoices() {
         return invoiceList;
     }
 
-    public void add(Invoice invoice) {
+    public void addInvoice(Invoice invoice) {
         if (!invoiceList.contains(invoice)) {
             invoiceList.add(invoice);
         }
     }
 
-    public void remove(int id) {
+    public void removeInvoice(int id) {
         invoiceList.removeIf((Invoice invoice) -> invoice.id() == id);
     }
 }
