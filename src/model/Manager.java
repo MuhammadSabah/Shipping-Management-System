@@ -5,8 +5,7 @@ import java.sql.Date;
 
 public record Manager(int id,
                       String password,
-                      String firstName,
-                      String lastName,
+                      String username,
                       int age,
                       char gender,
                       Date dateOfBrith,

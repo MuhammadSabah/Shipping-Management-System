@@ -1,6 +1,5 @@
 package controller.server;
 
-import controller.InvoiceController;
 import model.*;
 
 import java.io.IOException;
@@ -10,7 +9,7 @@ import java.net.Socket;
 import java.util.List;
 
 
-public class PacketController extends Thread{
+public class PacketController extends Thread {
     // File paths:
     public static String employeesFilePath = "files/employees.txt";
     public static String invoicesFilePath = "files/invoices.txt";
@@ -57,6 +56,17 @@ public class PacketController extends Thread{
     }
 
     //
+    // 1 -> Employee: Save list
+    // 2 -> Employee: Get list
+    // 3 -> Invoice: Save list
+    // 4 -> Invoice: Get list
+    // 5 -> Item: Save list
+    // 6 -> Item: Get list
+    // 7 -> Order: Save list
+    // 8 -> Order: Get list
+    // 9 -> Shipment: Save list
+    // 10-> Shipment: Get list
+
     private static Packet processPacket(Packet packet) {
         int packetMessage = packet.getMessage();
 
@@ -70,7 +80,7 @@ public class PacketController extends Thread{
             }
         } else if (packetMessage == 2) {
             DataController<Employee> employeesData = new DataController<>(employeesFilePath);
-            List<Employee> employees = employeesData.openList();
+            List<Employee> employees = employeesData.getList();
             if (employees.isEmpty()) {
                 packet = new Packet(0);
             } else {
@@ -89,7 +99,7 @@ public class PacketController extends Thread{
             }
         } else if (packetMessage == 4) {
             DataController<Invoice> invoicesData = new DataController<>(invoicesFilePath);
-            List<Invoice> invoices = invoicesData.openList();
+            List<Invoice> invoices = invoicesData.getList();
             if (invoices.isEmpty()) {
                 packet = new Packet(0);
             } else {
@@ -107,7 +117,7 @@ public class PacketController extends Thread{
             }
         } else if (packetMessage == 6) {
             DataController<Item> itemsData = new DataController<>(itemsFilePath);
-            List<Item> items = itemsData.openList();
+            List<Item> items = itemsData.getList();
             if (items.isEmpty()) {
                 packet = new Packet(0);
             } else {
@@ -126,7 +136,7 @@ public class PacketController extends Thread{
             }
         } else if (packetMessage == 8) {
             DataController<Order> ordersData = new DataController<>(ordersFilePath);
-            List<Order> orders = ordersData.openList();
+            List<Order> orders = ordersData.getList();
             if (orders.isEmpty()) {
                 packet = new Packet(0);
             } else {
@@ -144,7 +154,7 @@ public class PacketController extends Thread{
             }
         } else if (packetMessage == 10) {
             DataController<Shipment> shipmentsData = new DataController<>(shipmentsFilePath);
-            List<Shipment> shipments = shipmentsData.openList();
+            List<Shipment> shipments = shipmentsData.getList();
             if (shipments.isEmpty()) {
                 packet = new Packet(0);
             } else {

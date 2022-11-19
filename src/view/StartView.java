@@ -11,16 +11,10 @@ public class StartView {
             int ans = input.nextInt();
             if (ans == 1) {
                 if (AuthView.showLogin()) {
-                    // Later: Use controller to check the type of user.
-                    if (false) {
-                        // start employee view
-                        EmployeeView.start();
-                    } else {
-                        // start manager view
-                        ManagerView.start();
-                    }
+                    // Start employee view
+                    EmployeeView.start();
                     break;
-                }
+                } else continue;
             } else {
                 System.out.println("System Exited!");
                 break;

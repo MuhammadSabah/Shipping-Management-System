@@ -3,14 +3,32 @@ package controller;
 import model.Employee;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Locale;
 import java.util.stream.Collectors;
 
 public class EmployeeController {
     private final ArrayList<Employee> employees = new ArrayList<>();
+    private static Employee authenticatedEmployee;
+//    EmployeeData employeeData = new EmployeeData();
 
-    // OR
-    // private HashMap<Integer, Employee> employeesHash;
+    public boolean authenticateEmployee(String userName, String password) {
+        for (Employee employee : employeeData.getEmployees()) {
+            if ((employee.username().equals(userName.toLowerCase())) && (employee.password().equals(password))) {
+                System.out.println("---- Employee successfully authenticated! ----");
+                authenticatedEmployee = employee;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean isEmployeeExist(String username) {
+        return employeeData.getEmployees().stream().anyMatch(employee -> employee.username().equals(username));
+    }
+
+    public static Employee getAuthenticatedEmployee() {
+        return authenticatedEmployee;
+    }
 
     public void addEmployee(Employee employee) {
         if (!employees.contains(employee)) {
