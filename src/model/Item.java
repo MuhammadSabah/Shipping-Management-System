@@ -1,8 +1,9 @@
 package model;
 
 import java.io.Serializable;
+import java.util.concurrent.atomic.AtomicInteger;
 
-public record Item(int id,
+public record Item(AtomicInteger id,
                    String name,
                    double weight) implements Serializable {
 

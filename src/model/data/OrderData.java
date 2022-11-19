@@ -28,7 +28,8 @@ public class OrderData {
     }
 
     public boolean addOrder(Order ord) {
-        Order order = new Order(ID_GENERATOR.getAndIncrement(), ord.shipmentId(), ord.orderWeight(), ord.shippingInvoice(), ord.itemsList(), ord.orderSender(), ord.orderReceiver(), ord.receiverAddress(), ord.deliveredDate(), ord.shippingDate(), ord.status());
+        Order order = new Order(ID_GENERATOR, ord.shipmentId(), ord.orderWeight(), ord.shippingInvoice(), ord.itemsList(), ord.orderSender(), ord.orderReceiver(), ord.receiverAddress(), ord.deliveredDate(), ord.shippingDate(), ord.status());
+
         orders.add(order);
         Packet<Order> orderPacket = new Packet<>(5);
         orderPacket.setItems(orders);

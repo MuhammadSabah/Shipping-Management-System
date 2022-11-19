@@ -3,8 +3,9 @@ package model;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.concurrent.atomic.AtomicInteger;
 
-public record Order(int id,
+public record Order(AtomicInteger id,
                     int shipmentId,
                     double orderWeight,
                     Invoice shippingInvoice,
