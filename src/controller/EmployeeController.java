@@ -27,9 +27,8 @@ public class EmployeeController {
         }
         return false;
     }
-
-
     public boolean addEmployee(Employee employee) {
+        employeeData.fetchAndSetEmployees();
         if (!isEmployeeExist(employee.username())) {
             employees.add(employee);
             employeeData.addEmployee(employee);

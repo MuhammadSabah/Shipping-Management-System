@@ -20,10 +20,10 @@ public class AuthView {
             password = input.next();
 
             if (employeeController.authenticateEmployee(username, password)) {
-                System.out.println("Login Successful!");
+                System.out.println("\n---- " + username + " Logged in Successfully! ----");
                 return true;
             } else {
-                System.out.println("Incorrect username or password!,\n [1]: Try again \t [2]: Quit");
+                System.out.println("\n---- Incorrect username or password! ----\n");
                 return false;
             }
         }
@@ -57,10 +57,10 @@ public class AuthView {
             Employee employee = new Employee(new AtomicInteger(id), username, password, address, age, gender, phoneNumber, email);
 
             if (employeeController.addEmployee(employee)) {
-                System.out.println("Signup Successful, " + employee.username() + " Added!");
+                System.out.println("---- Signup Successful, " + employee.username() + " Added! ----");
                 return true;
             } else {
-                System.out.println("Employee already exists!");
+                System.out.println("\n---- Employee already exists! ----\n");
                 return false;
             }
         }

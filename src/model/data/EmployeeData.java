@@ -41,7 +41,6 @@ public class EmployeeData {
     // Adding the employee and using the clientController to also add it to the file with "post" method.
     public boolean addEmployee(Employee emp) {
         Employee employee = new Employee(ID_GENERATOR, emp.username().toLowerCase(), emp.password().toLowerCase(), emp.address(), emp.age(), emp.gender(), emp.phoneNumber(), emp.email());
-
         employees.add(employee);
         System.out.println("---- Employee Added Successfully! ----");
         Packet<Employee> employeePacket = new Packet<>(1);

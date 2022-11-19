@@ -18,7 +18,6 @@ public class StartView {
                 }
             } else if (ans == 2) {
                 if (AuthView.showLogin()) {
-                    // Start employee view
                     EmployeeView.start();
                     break;
                 } else {
