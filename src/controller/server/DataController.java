@@ -2,9 +2,7 @@ package controller.server;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class DataController<T> {
     String path;
@@ -13,7 +11,7 @@ public class DataController<T> {
         this.path = path;
     }
 
-    public List<T> openList() {
+    public List<T> getList() {
         List<T> list = new ArrayList<>();
         try {
             FileInputStream fileIn = new FileInputStream(path);

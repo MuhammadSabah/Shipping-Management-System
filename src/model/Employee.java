@@ -3,9 +3,8 @@ package model;
 import java.io.Serializable;
 
 public record Employee(int id,
-                       String firstName,
-                       String middleName,
-                       String lastName,
+                       String username,
+                       String password,
                        String address,
                        int age,
                        char gender,
@@ -13,7 +12,7 @@ public record Employee(int id,
                        String email,
                        double yearlySalary) implements Serializable {
     public Employee {
-        if (firstName.length() < 3 || lastName.length() < 3 || middleName.length() < 3) {
+        if (username.length() < 3) {
             throw new IllegalArgumentException("Employee name is too short");
         }
     }

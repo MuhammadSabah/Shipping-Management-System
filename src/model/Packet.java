@@ -2,8 +2,8 @@ package model;
 
 import java.io.Serializable;
 import java.util.List;
-import java.util.Map;
 
+// Packet is used for holding the data that we want to store.
 public class Packet<T> implements Serializable {
     private List<T> items;
     private int message;

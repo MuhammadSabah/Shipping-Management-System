@@ -1,9 +1,11 @@
 package controller.client;
+
 import model.Packet;
 
 import java.io.IOException;
 
 public class ClientController<T> {
+    // Client CRUD operations:
     public Packet<T> get(Packet<T> packet) {
         try {
             ClientConnection.objOut.writeObject(packet);
