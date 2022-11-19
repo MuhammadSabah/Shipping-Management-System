@@ -13,10 +13,14 @@ public class EmployeeController {
     private static Employee authenticatedEmployee;
     EmployeeData employeeData = new EmployeeData();
 
+    public boolean isEmployeeExist(String username) {
+        return employeeData.getEmployees().stream().anyMatch(employee -> employee.username().equals(username));
+    }
+
     public boolean authenticateEmployee(String userName, String password) {
+        employeeData.fetchAndSetEmployees();
         for (Employee employee : employeeData.getEmployees()) {
             if ((employee.username().equals(userName.toLowerCase())) && (employee.password().equals(password))) {
-                System.out.println("---- Employee successfully authenticated! ----");
                 authenticatedEmployee = employee;
                 return true;
             }
@@ -24,15 +28,8 @@ public class EmployeeController {
         return false;
     }
 
-    public boolean isEmployeeExist(String username) {
-        return employeeData.getEmployees().stream().anyMatch(employee -> employee.username().equals(username));
-    }
-
-    public static Employee getAuthenticatedEmployee() {
-        return authenticatedEmployee;
-    }
-
     public boolean addEmployee(Employee employee) {
+        employeeData.fetchAndSetEmployees();
         if (!isEmployeeExist(employee.username())) {
             employees.add(employee);
             employeeData.addEmployee(employee);
@@ -56,6 +53,10 @@ public class EmployeeController {
 
     public ArrayList<Employee> getAllEmployee() {
         return employees;
+    }
+
+    public static Employee getAuthenticatedEmployee() {
+        return authenticatedEmployee;
     }
 
     public ArrayList<Employee> searchByGender(char g) {
