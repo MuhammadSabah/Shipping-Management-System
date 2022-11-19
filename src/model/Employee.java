@@ -1,21 +1,23 @@
 package model;
 
 import java.io.Serializable;
+import java.util.concurrent.atomic.AtomicInteger;
 
-public record Employee(int id,
+public record Employee(AtomicInteger id,
                        String username,
                        String password,
                        String address,
                        int age,
                        char gender,
                        String phoneNumber,
-                       String email,
-                       double yearlySalary) implements Serializable {
+                       String email) implements Serializable {
     public Employee {
         if (username.length() < 3) {
             throw new IllegalArgumentException("Employee name is too short");
         }
     }
+
+
 }
 
 

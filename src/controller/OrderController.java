@@ -3,12 +3,13 @@ package controller;
 import model.Order;
 
 import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 public class OrderController {
     private final ArrayList<Order> ordersList = new ArrayList<>();
 
-    public Order getOrder(int id) {
+    public Order getOrder(AtomicInteger id) {
         for (Order order : ordersList) {
             if (order.id() == id) {
                 return order;
@@ -33,7 +34,7 @@ public class OrderController {
         }
     }
 
-    public void removeOrder(int id) {
+    public void removeOrder(AtomicInteger id) {
         ordersList.removeIf((Order order) -> order.id() == id);
     }
 

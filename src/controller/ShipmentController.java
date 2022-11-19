@@ -3,6 +3,7 @@ package controller;
 import model.Shipment;
 
 import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 public class ShipmentController {
@@ -14,11 +15,11 @@ public class ShipmentController {
         }
     }
 
-    public void removeShipment(int id) {
+    public void removeShipment(AtomicInteger id) {
         shipments.removeIf((Shipment shipment) -> shipment.id() == id);
     }
 
-    public Shipment getShipment(int id) {
+    public Shipment getShipment(AtomicInteger id) {
         for (Shipment shipment : shipments) {
             if (shipment.id() == id) {
                 return shipment;

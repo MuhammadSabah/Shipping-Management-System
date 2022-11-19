@@ -3,6 +3,7 @@ package controller;
 import model.Item;
 
 import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class ItemController {
     private final ArrayList<Item> itemsList = new ArrayList<>();
@@ -13,11 +14,11 @@ public class ItemController {
         }
     }
 
-    public void removeItem(int id) {
+    public void removeItem(AtomicInteger id) {
         itemsList.removeIf((Item item) -> item.id() == id);
     }
 
-    public Item get(int id) {
+    public Item get(AtomicInteger id) {
         for (Item item : itemsList) {
             if (item.id() == id) {
                 return item;
