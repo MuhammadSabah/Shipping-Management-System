@@ -14,11 +14,11 @@ public class ItemController {
         }
     }
 
-    public void removeItem(AtomicInteger id) {
+    public void removeItem(int id, int orderID) {
         itemsList.removeIf((Item item) -> item.id() == id);
     }
 
-    public Item get(AtomicInteger id) {
+    public Item get(int id) {
         for (Item item : itemsList) {
             if (item.id() == id) {
                 return item;

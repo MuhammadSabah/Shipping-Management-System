@@ -12,7 +12,7 @@ public class InvoiceController {
         return width * length * height;
     }
 
-    public Invoice getInvoice(AtomicInteger id) {
+    public Invoice getInvoice(int id) {
         for (Invoice invoice : invoiceList) {
             if (invoice.id() == id) {
                 return invoice;
@@ -31,7 +31,7 @@ public class InvoiceController {
         }
     }
 
-    public void removeInvoice(AtomicInteger id) {
+    public void removeInvoice(int id) {
         invoiceList.removeIf((Invoice invoice) -> invoice.id() == id);
     }
 }

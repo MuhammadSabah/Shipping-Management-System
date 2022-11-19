@@ -26,6 +26,7 @@ public class PacketController extends Thread {
         this.socket = socket;
     }
 
+    @Override
     public void run() {
         try {
             System.out.println("Client Connected");
@@ -80,7 +81,7 @@ public class PacketController extends Thread {
             }
         } else if (packetMessage == 2) {
             DataController<Employee> employeesData = new DataController<>(employeesFilePath);
-            List<Employee> employees = employeesData.getList();
+            List<Employee> employees = employeesData.getListFromFile();
             if (employees.isEmpty()) {
                 packet = new Packet(0);
             } else {
@@ -99,7 +100,7 @@ public class PacketController extends Thread {
             }
         } else if (packetMessage == 4) {
             DataController<Invoice> invoicesData = new DataController<>(invoicesFilePath);
-            List<Invoice> invoices = invoicesData.getList();
+            List<Invoice> invoices = invoicesData.getListFromFile();
             if (invoices.isEmpty()) {
                 packet = new Packet(0);
             } else {
@@ -117,7 +118,7 @@ public class PacketController extends Thread {
             }
         } else if (packetMessage == 6) {
             DataController<Item> itemsData = new DataController<>(itemsFilePath);
-            List<Item> items = itemsData.getList();
+            List<Item> items = itemsData.getListFromFile();
             if (items.isEmpty()) {
                 packet = new Packet(0);
             } else {
@@ -136,7 +137,7 @@ public class PacketController extends Thread {
             }
         } else if (packetMessage == 8) {
             DataController<Order> ordersData = new DataController<>(ordersFilePath);
-            List<Order> orders = ordersData.getList();
+            List<Order> orders = ordersData.getListFromFile();
             if (orders.isEmpty()) {
                 packet = new Packet(0);
             } else {
@@ -154,7 +155,7 @@ public class PacketController extends Thread {
             }
         } else if (packetMessage == 10) {
             DataController<Shipment> shipmentsData = new DataController<>(shipmentsFilePath);
-            List<Shipment> shipments = shipmentsData.getList();
+            List<Shipment> shipments = shipmentsData.getListFromFile();
             if (shipments.isEmpty()) {
                 packet = new Packet(0);
             } else {

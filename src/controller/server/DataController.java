@@ -6,12 +6,11 @@ import java.util.List;
 
 public class DataController<T> {
     String path;
-
     public DataController(String path) {
         this.path = path;
     }
 
-    public List<T> getList() {
+    public List<T> getListFromFile() {
         List<T> list = new ArrayList<>();
         try {
             FileInputStream fileIn = new FileInputStream(path);

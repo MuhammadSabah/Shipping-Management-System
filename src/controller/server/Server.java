@@ -7,6 +7,7 @@ public class Server {
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(4444)) {
             while (true) {
+                // The start() here is calling run() inside Thread class.
                 new PacketController(serverSocket.accept()).start();
             }
 

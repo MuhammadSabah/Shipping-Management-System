@@ -38,11 +38,11 @@ public class EmployeeController {
         return false;
     }
 
-    public void removeEmployee(AtomicInteger id) {
+    public void removeEmployee(int id) {
         employees.removeIf((Employee employee) -> Objects.equals(employee.id(), id));
     }
 
-    public Employee getEmployee(AtomicInteger id) {
+    public Employee getEmployee(int id) {
         for (Employee emp : employees) {
             if (emp.id() == id) {
                 return emp;

@@ -3,7 +3,7 @@ package model;
 import java.io.Serializable;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public record Employee(AtomicInteger id,
+public record Employee(int id,
                        String username,
                        String password,
                        String address,

@@ -28,7 +28,7 @@ public class ShipmentData {
     }
 
     public boolean addShipment(Shipment shp) {
-        Shipment shipment = new Shipment(ID_GENERATOR, shp.orders(), shp.maxWeight(), shp.shippingStatus(), shp.basePort(), shp.destinationPort());
+        Shipment shipment = new Shipment(ID_GENERATOR.intValue(), shp.orders(), shp.maxWeight(), shp.shippingStatus(), shp.basePort(), shp.destinationPort());
 
         shipments.add(shipment);
         Packet<Shipment> shipmentPacket = new Packet<>(5);

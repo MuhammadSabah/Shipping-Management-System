@@ -54,7 +54,7 @@ public class AuthView {
             System.out.println("Enter your Email: ");
             email = input.next();
 
-            Employee employee = new Employee(new AtomicInteger(id), username, password, address, age, gender, phoneNumber, email);
+            Employee employee = new Employee(id, username, password, address, age, gender, phoneNumber, email);
 
             if (employeeController.addEmployee(employee)) {
                 System.out.println("---- Signup Successful, " + employee.username() + " Added! ----");

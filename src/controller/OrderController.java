@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class OrderController {
     private final ArrayList<Order> ordersList = new ArrayList<>();
 
-    public Order getOrder(AtomicInteger id) {
+    public Order getOrder(int id) {
         for (Order order : ordersList) {
             if (order.id() == id) {
                 return order;
@@ -34,7 +34,7 @@ public class OrderController {
         }
     }
 
-    public void removeOrder(AtomicInteger id) {
+    public void removeOrder(int id) {
         ordersList.removeIf((Order order) -> order.id() == id);
     }
 

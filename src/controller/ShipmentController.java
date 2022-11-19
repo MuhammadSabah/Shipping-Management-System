@@ -15,11 +15,11 @@ public class ShipmentController {
         }
     }
 
-    public void removeShipment(AtomicInteger id) {
+    public void removeShipment(int id) {
         shipments.removeIf((Shipment shipment) -> shipment.id() == id);
     }
 
-    public Shipment getShipment(AtomicInteger id) {
+    public Shipment getShipment(int id) {
         for (Shipment shipment : shipments) {
             if (shipment.id() == id) {
                 return shipment;

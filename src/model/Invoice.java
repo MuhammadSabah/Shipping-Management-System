@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public record Invoice(AtomicInteger id,
+public record Invoice(int id,
                       int shipmentId,
                       Date invoiceDate,
                       Date shipmentDate,

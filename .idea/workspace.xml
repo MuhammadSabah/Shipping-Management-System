@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f926630e-9ccd-4247-8eb9-fa5cd2cf9bf3" name="Changes" comment="refactoring">
+    <list default="true" id="f926630e-9ccd-4247-8eb9-fa5cd2cf9bf3" name="Changes" comment="refactoring and fixing some login issues.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shipping-Management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shipping-Management.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/employees.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/employees.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InvoiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ShipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ShipmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/server/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/server/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/server/PacketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/server/PacketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Shipment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/data/EmployeeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/data/EmployeeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/data/InvoiceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/data/InvoiceData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/data/OrderData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/data/OrderData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/data/ShipmentData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/data/ShipmentData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/AuthView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AuthView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/EmployeeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/EmployeeView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/StartView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/StartView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +60,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2GBMFK7C2Io8JJTLgfdR5ZjN3g0" />
   <component name="ProjectLevelVcsManager">
@@ -290,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668870780437</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="refactoring and fixing some login issues.">
+      <created>1668890124343</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1668890124343</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,7 +343,8 @@
     <MESSAGE value="updating method names" />
     <MESSAGE value="adding server" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="refactoring and fixing some login issues." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring and fixing some login issues." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

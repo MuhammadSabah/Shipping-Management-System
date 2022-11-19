@@ -28,8 +28,7 @@ public class InvoiceData {
     }
 
     public boolean addInvoice(Invoice inv) {
-        Invoice invoice = new Invoice(ID_GENERATOR, inv.shipmentId(), inv.invoiceDate(), inv.shipmentDate(), inv.shipmentType(), inv.note(), inv.boxesQuantity(), inv.price(), inv.totalAmount(), inv.discount(), inv.finalAmount(), inv.payedIn(), inv.CBM());
-
+        Invoice invoice = new Invoice(ID_GENERATOR.intValue(), inv.shipmentId(), inv.invoiceDate(), inv.shipmentDate(), inv.shipmentType(), inv.note(), inv.boxesQuantity(), inv.price(), inv.totalAmount(), inv.discount(), inv.finalAmount(), inv.payedIn(), inv.CBM());
         invoices.add(invoice);
         Packet<Invoice> invoicePacket = new Packet<>(3);
         invoicePacket.setItems(invoices);
