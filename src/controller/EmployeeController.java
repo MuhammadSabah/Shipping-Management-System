@@ -27,7 +27,6 @@ public class EmployeeController {
         }
         return false;
     }
-
     public boolean addEmployee(Employee employee) {
         employeeData.fetchAndSetEmployees();
         if (!isEmployeeExist(employee.username())) {
@@ -65,7 +64,4 @@ public class EmployeeController {
                 .collect(Collectors.toList());
     }
 }
-
-
-
 
