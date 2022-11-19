@@ -38,6 +38,8 @@ public class ManagerView {
                         case 5:
                         case 6:
                     }
+                } else if(n.equalsIgnoreCase("help")){
+                    managerMainCommands();
                 } else if (n.equalsIgnoreCase("exit")) {
                     System.out.print("Are you sure you want to exit? Y/N ");
                     char c = in.next().charAt(0);
