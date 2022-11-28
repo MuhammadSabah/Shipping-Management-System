@@ -6,7 +6,7 @@ import java.util.List;
 
 public class DataController<T> {
     String path;
-    public DataController(String path) {
+    public  DataController(String path) {
         this.path = path;
     }
 

@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f926630e-9ccd-4247-8eb9-fa5cd2cf9bf3" name="Changes" comment="refactoring and fixing some login issues.">
+    <list default="true" id="f926630e-9ccd-4247-8eb9-fa5cd2cf9bf3" name="Changes" comment="adding item methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InvoiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ShipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ShipmentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/server/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/server/DataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/server/PacketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/server/PacketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Shipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/data/EmployeeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/data/EmployeeData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/data/InvoiceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/data/InvoiceData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/data/OrderData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/data/OrderData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/data/ShipmentData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/data/ShipmentData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AuthView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AuthView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/EmployeeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/EmployeeView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/StartView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/StartView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +64,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "preferences.editor"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -122,9 +107,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.server" />
-      <item itemvalue="Application.main" />
       <item itemvalue="Application.main2" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.server" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -311,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668890124343</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="adding item methods">
+      <created>1668900268465</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1668900268465</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,7 +336,8 @@
     <MESSAGE value="adding server" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="refactoring and fixing some login issues." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring and fixing some login issues." />
+    <MESSAGE value="adding item methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding item methods" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

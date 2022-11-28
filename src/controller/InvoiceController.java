@@ -3,7 +3,6 @@ package controller;
 import model.Invoice;
 
 import java.util.ArrayList;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class InvoiceController {
     private final ArrayList<Invoice> invoiceList = new ArrayList<>();

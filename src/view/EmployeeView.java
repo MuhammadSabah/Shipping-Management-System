@@ -7,10 +7,8 @@ import model.Invoice;
 import model.Item;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class EmployeeView {
 

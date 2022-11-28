@@ -38,10 +38,6 @@ public class OrderController {
         ordersList.removeIf((Order order) -> order.id() == id);
     }
 
-    public void updateOrder(Order order) {
-        // Nothing for now
-    }
-
     public ArrayList<Order> searchSenderOrder(String orderSender) {
         return (ArrayList<Order>) ordersList.stream()
                 .filter((Order order) -> order.orderSender().contains(orderSender))
