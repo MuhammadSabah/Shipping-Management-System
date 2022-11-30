@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 public class EmployeeController {
     private final ArrayList<Employee> employees = new ArrayList<>();
-    EmployeeDaoImpl employeeDao;
+    EmployeeDao employeeDao;
     {
         try {
             employeeDao = new EmployeeDaoImpl();
@@ -32,7 +32,7 @@ public class EmployeeController {
         return employeeDao.findByName(username);
     }
     public ArrayList<Employee> getAllEmployees() {
-        return employeeDao.retrieveAll();
+        return (ArrayList<Employee>) employeeDao.retrieveAll();
     }
 }
 
