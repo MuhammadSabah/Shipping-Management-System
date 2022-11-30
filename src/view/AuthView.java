@@ -11,7 +11,6 @@ public class AuthView {
    private static final String employeeQuery = "SELECT * FROM `EMPLOYEE` WHERE username LIKE ? AND password LIKE ?;";
    private static final String managerQuery = "SELECT * FROM `MANAGER` WHERE username LIKE ? AND password LIKE ?;";
 
-
     public static String showLogin() {
         EmployeeController employeeController = new EmployeeController();
         Scanner input = new Scanner(System.in);

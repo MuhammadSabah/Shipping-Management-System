@@ -1,6 +1,6 @@
-package controller.client;
+package pre_jdbc;
 
-import model.Packet;
+import controller.client.ClientConnection;
 
 import java.io.IOException;
 

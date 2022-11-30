@@ -7,8 +7,6 @@ import model.Employee;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import java.util.stream.Collectors;
-
 public class EmployeeController {
     private final ArrayList<Employee> employees = new ArrayList<>();
     EmployeeDao employeeDao;

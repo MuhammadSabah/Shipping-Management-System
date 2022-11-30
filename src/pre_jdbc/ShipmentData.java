@@ -1,7 +1,5 @@
-package model.DAO;
+package pre_jdbc;
 
-import controller.client.ClientController;
-import model.Packet;
 import model.Shipment;
 
 import java.util.ArrayList;

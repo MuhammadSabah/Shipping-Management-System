@@ -15,8 +15,6 @@ public record Employee(int id,
             throw new IllegalArgumentException("Employee name is too short");
         }
     }
-
-
 }
 
 

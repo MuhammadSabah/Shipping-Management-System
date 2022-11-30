@@ -1,4 +1,4 @@
-package model;
+package pre_jdbc;
 
 import java.io.Serializable;
 import java.util.List;

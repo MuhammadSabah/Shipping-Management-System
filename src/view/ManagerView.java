@@ -41,7 +41,7 @@ public class ManagerView {
                             address = input.next();
                             System.out.println("Enter Employee Age: ");
                             age = input.nextInt();
-                            System.out.println("Enter Employee gender (preferrably M/F): ");
+                            System.out.println("Enter Employee gender (preferably M/F): ");
                             gender = input.next().substring(0, 1);
                             System.out.println("Enter Employee phone number: ");
                             phoneNumber = input.next();
@@ -54,12 +54,12 @@ public class ManagerView {
                         case 2:
                             System.out.println("username or ID?");
                             String choice = input.next();
-                            if(choice.equalsIgnoreCase("id")) {
+                            if (choice.equalsIgnoreCase("id")) {
                                 System.out.println("Enter the id of the employee: ");
                                 id = input.nextInt();
                                 employeeController.removeEmployeeId(id);
                                 System.out.println("Employee removed. ");
-                            } else if(choice.equalsIgnoreCase("username")) {
+                            } else if (choice.equalsIgnoreCase("username")) {
                                 System.out.println("Enter the username of the employee: ");
                                 username = input.next();
                                 employeeController.removeEmployeeUsername(username);
@@ -78,8 +78,8 @@ public class ManagerView {
                             }
                             break;
                         case 4:
-                            ArrayList<Employee> returnedList =  employeeController.getAllEmployees();
-                            for(int i = 0; i < returnedList.size(); i++) {
+                            ArrayList<Employee> returnedList = employeeController.getAllEmployees();
+                            for (int i = 0; i < returnedList.size(); i++) {
                                 System.out.println(returnedList.get(i).toString());
                             }
                             break;
@@ -95,7 +95,7 @@ public class ManagerView {
                         case 5:
                         case 6:
                     }
-                } else if(n.equalsIgnoreCase("help")){
+                } else if (n.equalsIgnoreCase("help")) {
                     managerMainCommands();
                 } else if (n.equalsIgnoreCase("exit")) {
                     System.out.print("Are you sure you want to exit? Y/N ");

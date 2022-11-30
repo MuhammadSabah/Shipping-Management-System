@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f926630e-9ccd-4247-8eb9-fa5cd2cf9bf3" name="Changes" comment="JDBC connection + Manager Employee commands">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shipping-Management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shipping-Management.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/server/ThreadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/server/ThreadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre-jdbc/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre_jdbc/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre-jdbc/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre_jdbc/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre-jdbc/EmployeeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre_jdbc/EmployeeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre-jdbc/InvoiceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre_jdbc/InvoiceData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre-jdbc/ItemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre_jdbc/ItemData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre-jdbc/OrderData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre_jdbc/OrderData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre-jdbc/Packet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre_jdbc/Packet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre-jdbc/ShipmentData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre_jdbc/ShipmentData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AuthView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AuthView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ManagerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ManagerView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +65,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../a/mysql-connector-j-8.0.31/mysql-connector-j-8.0.31.jar" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.1081081" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/Leonvo/Downloads/mysql-connector-j-8.0.31/mysql-connector-j-8.0.31",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Leonvo\IdeaProjects\Shipping-Management\src\model" />
@@ -283,7 +295,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add container model" />
