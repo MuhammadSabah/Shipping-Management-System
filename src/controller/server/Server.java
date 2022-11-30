@@ -7,7 +7,7 @@ public class Server {
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(4444)) {
             while (true) {
-                new PacketController(serverSocket.accept()).start();
+                new ThreadController(serverSocket.accept()).start();
             }
 
         } catch (IOException e) {

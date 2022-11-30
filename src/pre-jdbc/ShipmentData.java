@@ -1,4 +1,4 @@
-package model.data;
+package model.DAO;
 
 import controller.client.ClientController;
 import model.Packet;
