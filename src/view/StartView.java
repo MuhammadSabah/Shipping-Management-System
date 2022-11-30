@@ -17,11 +17,15 @@ public class StartView {
                     continue;
                 }
             } else if (ans == 2) {
-                if (AuthView.showLogin()) {
+                String access = AuthView.showLogin();
+
+                if (access.equalsIgnoreCase("employee")) {
                     EmployeeView.start();
                     break;
-                } else {
-                    continue;
+                }
+                if (access.equalsIgnoreCase("manager")) {
+                    ManagerView.start();
+                    break;
                 }
             } else {
                 System.out.println("System Exited!");

@@ -6,6 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public record Invoice(AtomicInteger id,
                       int shipmentId,
+                      int orderId,
                       Date invoiceDate,
                       Date shipmentDate,
                       String shipmentType,
