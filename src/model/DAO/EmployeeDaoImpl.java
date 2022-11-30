@@ -19,7 +19,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
     private static final String retrieveAll = "SELECT * FROM `EMPLOYEE`";
     private static final String findByID = "SELECT * FROM `EMPLOYEE` WHERE id LIKE ?";
     private static final String findByName = "SELECT * FROM `EMPLOYEE` WHERE username LIKE ?";
-    private static final String addEmployeeFull = "INSERT INTO `employee`(`id`, `username`, `password`, `age`, `gender`, `number`, `email`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+    private static final String addEmployeeFull = "INSERT INTO `employee`(`id`, `username`, `password`, `address`, `age`, `gender`, `number`, `email`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
     private static final String deleteEmployeeByID = "DELETE FROM `employee` WHERE id like ?";
     private static final String deleteEmployeeByUsername = "DELETE FROM `employee` WHERE username like ?";
 
@@ -40,7 +40,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
                             resultSet.getString(4),
                             resultSet.getInt(5),
                             resultSet.getString(6),
-                            resultSet.getInt(7),
+                            resultSet.getString(7),
                             resultSet.getString(8)));
                 }
         } catch (SQLException ex) {
@@ -59,7 +59,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
             while (resultSet.next()) {
                 employee = new Employee(resultSet.getInt(1), resultSet.getString(2), resultSet.getString(3), resultSet.getString(4),
                         resultSet.getInt(5), resultSet.getString(6),
-                        resultSet.getInt(7), resultSet.getString(8));
+                        resultSet.getString(7), resultSet.getString(8));
             }
         } catch (SQLException ex) {
             ex.printStackTrace();
@@ -77,7 +77,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
             while (resultSet.next()) {
                 employee = new Employee(resultSet.getInt(1), resultSet.getString(2), resultSet.getString(3), resultSet.getString(4),
                         resultSet.getInt(5), resultSet.getString(6),
-                        resultSet.getInt(7), resultSet.getString(8));
+                        resultSet.getString(7), resultSet.getString(8));
             }
         } catch (SQLException ex) {
             ex.printStackTrace();
@@ -95,8 +95,8 @@ public class EmployeeDaoImpl implements EmployeeDao{
             statement.setString(3, employee.password());
             statement.setString(4, employee.address());
             statement.setInt(5, employee.age());
-            statement.setString(6, String.valueOf(employee.gender()));
-            statement.setInt(7, employee.phoneNumber());
+            statement.setString(6, employee.gender());
+            statement.setString(7, employee.phoneNumber());
             statement.setString(8, employee.email());
             statement.executeUpdate();
             added = true;

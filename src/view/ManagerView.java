@@ -15,8 +15,8 @@ public class ManagerView {
 
     public static void start() {
 
-        int id, age, phoneNumber;
-        String username, password, address, gender, email;
+        int id, age;
+        String username, password, address, gender, phoneNumber, email;
 
         System.out.println("\n***** MANAGER VIEW *****");
         String n = "";
@@ -44,7 +44,7 @@ public class ManagerView {
                             System.out.println("Enter Employee gender (preferrably M/F): ");
                             gender = input.next().substring(0, 1);
                             System.out.println("Enter Employee phone number: ");
-                            phoneNumber = input.nextInt();
+                            phoneNumber = input.next();
                             System.out.println("Enter Employee Email: ");
                             email = input.next();
                             Employee employee = new Employee(id, username, password, address, age, gender, phoneNumber, email);
