@@ -8,7 +8,7 @@ public record Employee(int id,
                        String address,
                        int age,
                        String gender,
-                       int phoneNumber,
+                       String phoneNumber,
                        String email) implements Serializable {
     public Employee {
         if (username.length() < 3) {

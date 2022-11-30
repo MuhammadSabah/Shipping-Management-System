@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f926630e-9ccd-4247-8eb9-fa5cd2cf9bf3" name="Changes" comment="JDBC connection + Manager Employee commands">
-      <change afterPath="$PROJECT_DIR$/src/controller/server/ThreadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shipping-Management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shipping-Management.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/client/ClientController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/server/DataController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/server/PacketController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/DAO/EmployeeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/DAO/EmployeeDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Packet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/data/EmployeeData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/data/InvoiceData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/data/ItemData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/data/OrderData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/data/ShipmentData.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/AuthView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AuthView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/ManagerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ManagerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/StartView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/StartView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

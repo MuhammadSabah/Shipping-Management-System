@@ -5,7 +5,6 @@ import controller.EmployeeController;
 import model.Employee;
 
 import java.util.Scanner;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class AuthView {
 
@@ -42,8 +41,9 @@ public class AuthView {
     public static boolean showSignup() {
         EmployeeController employeeController = new EmployeeController();
         Scanner input = new Scanner(System.in);
-        int id, age, phoneNumber;
-        String username, password, address, gender, email;
+        int id;
+        int age;
+        String username, password, address, gender, phoneNumber, email;
         System.out.println("***** SIGNUP *****");
         while (true) {
             System.out.println("Enter an ID: ");
@@ -59,7 +59,7 @@ public class AuthView {
             System.out.println("Enter your gender (preferably M/F): ");
             gender = input.next().substring(0, 1);
             System.out.println("Enter your phone number: ");
-            phoneNumber = input.nextInt();
+            phoneNumber = input.next();
             System.out.println("Enter your Email: ");
             email = input.next();
 
