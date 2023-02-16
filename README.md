@@ -184,14 +184,14 @@ The Workflow of the System will be like the diagram below:
 We expect to finish the project within a period of 2½ months then we can deploy it on market, but support for adding more features, maintainability of the software and keeping the software up-to-date with the market requirements requires more budget and time.
 - [x] Requirement Gathering and Analysis. **2022/10/11**
 - [x] Creating Models using classes and records. **2022/10/16**
-- [ ] Creating containers and data structures to hold the data.
-- [ ] Persisting data in the files
-- [ ] Create user interface using terminal.
-- [ ] Create a client-server application so the server can answer clients' requests.
-- [ ] Adding Multithreading Capability so the server can respond to multiple clients.
-- [ ] Persist your data in a DBMS.
-- [ ] Test your program using JUnit.
-- [ ] Creating Documentation for your application.
+- [ ] Creating containers and data structures to hold the data. **2022/10/23**
+- [ ] Persisting data in the files. **2022/10/30**
+- [ ] Create user interface using terminal. **2022/11/12**
+- [ ] Create a client-server application so the server can answer clients' requests. **2022/11/19**
+- [ ] Adding Multithreading Capability so the server can respond to multiple clients. **2022/11/26**
+- [ ] Persist your data in a DBMS. **2022/12/3**
+- [ ] Test your program using JUnit. 
+- [ ] Creating Documentation for your application. 
 
 ## 9. Languages and Tools
 
