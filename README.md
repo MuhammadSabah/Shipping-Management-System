@@ -207,25 +207,24 @@ We expect to finish the project within a period of 2½ months then we can deploy
 - Muhammad Sabah (Team Leader)
 
    - GitHub: [MuhammadSabah](https://github.com/MuhammadSabah) 
-   - Email: <a href="mailto:hama.s.ibrahim9@gmail.com">hama.s.ibrahim9@gmail.com</a>
+
 
 - Zina Kamaran    
 
    - GitHub: [ZinaKamaran](https://github.com/Zinkamran) 
-   - Email: <a href="mailto:zinkamran.2000@gmail.com">zinkamran.2000@gmail.com</a>
-  
+
 
 - Halkawt Abdulilah    
 
    - GitHub: [HalkawtAbdulilah](https://github.com/Halkawt-Abdulilah) 
-   - Email: <a href="mailto:halkawt.abdulilah@gmail.com">halkawt.abdulilah@gmail.com</a>
+
 
 - Yara Yahya   
 
    - GitHub: [YaraYahya](https://github.com/YaraYahya) 
-    - Email: <a href="mailto:yarayahiahussein9@gmail.com">yarayahiahussein9@gmail.com</a>
+
 
 - Abdulrahman Yassin      
 
    - GitHub: [AbdulrahmanYassin](https://github.com/abdulrahman1242002) 
-   - Email: <a href="mailto:abdulrahmanyassin66@gmail.com">abdulrahmanyassin66@gmail.com</a>
+
